@@ -4,8 +4,8 @@ page-layout: full
 ---
 
 ::: {.lang-switcher}
-[English](./) {.lang-link}
-[Español](../es/) {.lang-link}
+<a class="lang-link" href="./">English</a>
+<a class="lang-link" href="../es/">Español</a>
 :::
 
 ::: {.hero-shell}
@@ -14,30 +14,27 @@ page-layout: full
 # Pythia { .hero-title }
 
 ::: {.hero-subtitle}
-Master’s Final Project at UCM. An award-winning data science product designed to be understood quickly, evaluated rigorously, and remembered for its clarity.
+Data Science for Cafeterias
+
+Final project for the Master in Data Science at UCM/NTIC.
 :::
 
 ::: {.badge-row}
 ::: {.hero-badge}
-<strong>Master’s Final Project at UCM</strong>
-<span>Awarded the maximum grade</span>
+<strong>Real world project</strong>
+<span>Uses real sales and customer review data from a Madrid coffee shop to build a practical, intelligent cafeteria application.</span>
 :::
 ::: {.hero-badge}
-<strong>Maximum grade</strong>
-<span>Academic and technical excellence recognized by the evaluation panel</span>
-:::
-::: {.hero-badge}
-<strong>2nd place in pitch contest</strong>
-<span>Validated for communication quality and product vision</span>
+<strong>Integrates distinct fields of knowledge</strong>
+<span>Effectively combines coursework in ETL, EDA, Machine Learning, Deep Learning, Time Series, NLP, and advanced visualization into one coherent solution.</span>
 :::
 ::: {.hero-badge}
 <strong>Built as a real product</strong>
-<span>Case study depth with startup-style execution and presentation</span>
+<span>Presented as a functioning MVP in Streamlit, with recognitions including the maximum grade and 2nd place in a pitch contest.</span>
 :::
 :::
 
 ::: {.cta-row}
-[GitHub](https://github.com/your-username/pythia){.cta-button .cta-primary}
 [LinkedIn](https://www.linkedin.com/in/your-linkedin/){.cta-button .cta-secondary}
 [Watch Demo](https://youtu.be/gkD9bKw1ikY){.cta-button .cta-tertiary}
 :::

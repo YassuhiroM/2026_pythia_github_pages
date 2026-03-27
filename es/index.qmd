@@ -4,8 +4,8 @@ page-layout: full
 ---
 
 ::: {.lang-switcher}
-[English](../en/) {.lang-link}
-[Español](./) {.lang-link}
+<a class="lang-link" href="../en/">English</a>
+<a class="lang-link" href="./">Español</a>
 :::
 
 ::: {.hero-shell}
@@ -14,30 +14,27 @@ page-layout: full
 # Pythia { .hero-title }
 
 ::: {.hero-subtitle}
-Trabajo Fin de Máster en la UCM. Un producto de ciencia de datos premiado, diseñado para entenderse rápido, evaluarse con rigor y recordarse por su claridad.
+Ciencia de Datos para Cafeterías
+
+Proyecto final del Máster en Ciencia de Datos en UCM/NTIC.
 :::
 
 ::: {.badge-row}
 ::: {.hero-badge}
-<strong>Trabajo Fin de Máster en la UCM</strong>
-<span>Calificación máxima otorgada por el tribunal</span>
+<strong>Proyecto real</strong>
+<span>Utiliza datos reales de ventas y reseñas de clientes de una cafetería de Madrid para construir una aplicación de cafetería práctica e inteligente.</span>
 :::
 ::: {.hero-badge}
-<strong>Calificación máxima</strong>
-<span>Excelencia académica y técnica reconocida formalmente</span>
-:::
-::: {.hero-badge}
-<strong>2.º puesto en concurso de pitch</strong>
-<span>Validación de la calidad comunicativa y de la visión de producto</span>
+<strong>Integra distintos campos de conocimiento</strong>
+<span>Combina de forma eficaz contenidos de ETL, EDA, Machine Learning, Deep Learning, Series Temporales, NLP y visualización avanzada en una única solución coherente.</span>
 :::
 ::: {.hero-badge}
 <strong>Construido como producto real</strong>
-<span>Profundidad de caso técnico con ejecución y presentación de estilo startup</span>
+<span>Presentado como un MVP funcional en Streamlit, con reconocimientos como la calificación máxima y el 2.º puesto en un concurso de pitch.</span>
 :::
 :::
 
 ::: {.cta-row}
-[GitHub](https://github.com/your-username/pythia){.cta-button .cta-primary}
 [LinkedIn](https://www.linkedin.com/in/your-linkedin/){.cta-button .cta-secondary}
 [Ver demo](https://youtu.be/gkD9bKw1ikY){.cta-button .cta-tertiary}
 :::
