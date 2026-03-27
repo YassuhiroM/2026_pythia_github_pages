@@ -1,0 +1,27 @@
+---
+title: "Awards and Recognition"
+---
+
+::: {.lang-switcher}
+[English](./awards-recognition.html) {.lang-link}
+[Español](../es/awards-recognition.html) {.lang-link}
+:::
+
+## Awards and Recognition { .section-title }
+
+The project combined strong technical work with strong communication, and the outcomes reflect both.
+
+::: {.feature-grid}
+::: {.award-card}
+### Maximum grade
+Pythia received the highest academic evaluation for the final project.
+:::
+::: {.award-card}
+### 2nd place in pitch contest
+The project also stood out in a presentation setting, validating its clarity, storytelling, and practical positioning.
+:::
+::: {.award-card}
+### Recruiter-ready presentation
+The combination of product polish and technical depth makes the project unusually effective for hiring conversations.
+:::
+:::

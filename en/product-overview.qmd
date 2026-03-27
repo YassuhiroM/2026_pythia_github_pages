@@ -1,0 +1,42 @@
+---
+title: "Product Overview"
+---
+
+::: {.lang-switcher}
+[English](./product-overview.html) {.lang-link}
+[Español](../es/product-overview.html) {.lang-link}
+:::
+
+## Product Overview { .section-title }
+
+Pythia is presented as a technical product case study rather than a disconnected academic submission. The goal is to make a sophisticated data science workflow feel understandable, credible, and decision-ready for audiences ranging from recruiters to professors.
+
+::: {.feature-grid}
+::: {.content-card}
+### Product promise
+Transform a demanding analytical problem into a clear, usable, and high-confidence decision-support experience.
+:::
+::: {.content-card}
+### Product qualities
+Readable architecture, explainable outputs, disciplined methodology, and presentation polish.
+:::
+::: {.content-card}
+### Intended audiences
+Recruiters, hiring managers, technical evaluators, professors, and collaborators looking for strong applied data science execution.
+:::
+:::
+
+## Design Principles
+
+- Clarity before complexity
+- Evidence before claims
+- Product storytelling without sacrificing technical rigor
+- Fast scanning for non-specialists and enough depth for technical review
+
+## Supporting Technical Materials
+
+The website is the front door. Detailed notebooks, appendices, code, report chapters, and presentation assets can remain in the linked GitHub materials as supporting references.
+
+::: {.callout-note}
+Replace the placeholder repository links across the site with your real project URLs to connect the polished overview with the full technical record.
+:::

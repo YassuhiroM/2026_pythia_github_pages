@@ -1,0 +1,34 @@
+---
+title: "Team"
+---
+
+::: {.lang-switcher}
+[English](./team.html) {.lang-link}
+[Español](../es/team.html) {.lang-link}
+:::
+
+## Team { .section-title }
+
+Pythia was shaped by a collaborative team with a shared focus on technical quality, product thinking, and clear communication.
+
+::: {.team-grid}
+::: {.team-card}
+![Team member 1](../assets/images/team/team-member-1.svg){.team-photo}
+### Team Member One
+Data science, experimentation, and analytical framing.
+:::
+::: {.team-card}
+![Team member 2](../assets/images/team/team-member-2.svg){.team-photo}
+### Team Member Two
+Modeling, technical validation, and implementation.
+:::
+::: {.team-card}
+![Team member 3](../assets/images/team/team-member-3.svg){.team-photo}
+### Team Member Three
+Product narrative, presentation, and stakeholder communication.
+:::
+:::
+
+::: {.callout-note}
+Replace the placeholder images in `/assets/images/team/` and update names and roles on this page. The layout is already responsive and ready for real photos.
+:::

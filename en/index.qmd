@@ -1,0 +1,124 @@
+---
+title: "Home"
+page-layout: full
+---
+
+::: {.lang-switcher}
+[English](./) {.lang-link}
+[Español](../es/) {.lang-link}
+:::
+
+::: {.hero-shell}
+[]{.eyebrow} Technical case study with product polish
+
+# Pythia { .hero-title }
+
+Master’s Final Project at UCM. An award-winning data science product designed to be understood quickly, evaluated rigorously, and remembered for its clarity.
+{.hero-subtitle}
+
+::: {.badge-row}
+::: {.hero-badge}
+**Master’s Final Project at UCM**
+Awarded the maximum grade
+:::
+::: {.hero-badge}
+**Maximum grade**
+Academic and technical excellence recognized by the evaluation panel
+:::
+::: {.hero-badge}
+**2nd place in pitch contest**
+Validated for communication quality and product vision
+:::
+::: {.hero-badge}
+**Built as a real product**
+Case study depth with startup-style execution and presentation
+:::
+:::
+
+::: {.cta-row}
+[GitHub](https://github.com/your-username/pythia){.cta-button .cta-primary}
+[LinkedIn](https://www.linkedin.com/in/your-linkedin/){.cta-button .cta-secondary}
+[Watch Demo](https://youtu.be/gkD9bKw1ikY){.cta-button .cta-tertiary}
+:::
+:::
+
+## Why Pythia { .section-title }
+
+Pythia turns a complex data science challenge into a coherent product story. The project combines rigorous methodology, explainable modeling choices, and a polished end-to-end experience so recruiters, professors, and technical evaluators can understand both the business value and the engineering quality in less than three minutes.
+
+::: {.feature-grid}
+::: {.content-card}
+### Product overview
+From concept to interface, Pythia is framed as a usable product rather than only a model notebook.
+
+[Explore the product overview](./product-overview.html)
+:::
+::: {.content-card}
+### Data and methodology
+The analytical workflow is documented clearly, from sourcing and preparation to evaluation design.
+
+[Review the methodology](./data-methodology.html)
+:::
+::: {.content-card}
+### Results and impact
+Performance is presented together with practical implications, business relevance, and communication quality.
+
+[See the results](./results-impact.html)
+:::
+:::
+
+## In Three Minutes { .section-title }
+
+::: {.page-grid}
+::: {.info-panel}
+### What it solves
+Pythia addresses a meaningful business problem with a decision-support perspective, translating raw data into insight that can guide action.
+:::
+::: {.info-panel}
+### How it works
+The system combines structured data work, sound methodology, and interpretable modeling decisions within a clear product narrative.
+:::
+::: {.info-panel}
+### Why it stands out
+It was awarded the maximum grade and placed second in a pitch contest, reflecting both technical depth and strong communication.
+:::
+:::
+
+## Video Demo { .section-title }
+
+::: {.youtube-frame}
+<iframe src="https://www.youtube.com/embed/gkD9bKw1ikY" title="Pythia demo video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
+
+## Supporting References { .section-title }
+
+Your existing technical materials can live alongside the website as supporting evidence rather than driving the homepage design.
+
+::: {.reference-links}
+[Repository](https://github.com/your-username/pythia)
+[Technical report](https://github.com/your-username/pythia)
+[Slides](https://github.com/your-username/pythia)
+:::
+
+## Next Stops { .section-title }
+
+::: {.feature-grid}
+::: {.content-card}
+### Team
+Meet the people behind the project and the roles that shaped the final delivery.
+
+[Meet the team](./team.html)
+:::
+::: {.content-card}
+### Awards and recognition
+See the academic and presentation achievements that differentiate the project.
+
+[View awards](./awards-recognition.html)
+:::
+::: {.content-card}
+### Contact
+Reach out for opportunities, technical discussion, or a deeper walkthrough.
+
+[Open contact page](./contact.html)
+:::
+:::

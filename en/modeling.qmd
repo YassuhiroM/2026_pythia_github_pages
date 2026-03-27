@@ -1,0 +1,34 @@
+---
+title: "Modeling"
+---
+
+::: {.lang-switcher}
+[English](./modeling.html) {.lang-link}
+[Español](../es/modeling.html) {.lang-link}
+:::
+
+## Modeling { .section-title }
+
+The modeling section should communicate both technical judgment and restraint: why the chosen approaches fit the problem, what alternatives were considered, and how performance was balanced with interpretability and robustness.
+
+::: {.feature-grid}
+::: {.content-card}
+### Baselines first
+Begin with simple benchmarks to establish a meaningful performance floor.
+:::
+::: {.content-card}
+### Model selection
+Present the final approach together with the reason it was selected over simpler or more complex alternatives.
+:::
+::: {.content-card}
+### Explainability
+Highlight feature importance, decision logic, or model interpretation methods where relevant.
+:::
+:::
+
+## What reviewers look for
+
+- Strong rationale for model choice
+- Careful tuning without overfitting
+- Honest discussion of tradeoffs
+- Clear separation between technical ambition and business usefulness

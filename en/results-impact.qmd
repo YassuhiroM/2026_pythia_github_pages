@@ -1,0 +1,34 @@
+---
+title: "Results and Impact"
+---
+
+::: {.lang-switcher}
+[English](./results-impact.html) {.lang-link}
+[Español](../es/results-impact.html) {.lang-link}
+:::
+
+## Results and Impact { .section-title }
+
+Results should show more than model metrics. Pythia is strongest when the performance story is connected to user value, decision quality, or operational improvement.
+
+::: {.page-grid}
+::: {.award-card}
+### Quantitative outcomes
+Summarize the main metrics, comparative improvements, and benchmark performance clearly and honestly.
+:::
+::: {.award-card}
+### Practical impact
+Translate results into what the model enables in practice: faster decisions, better prioritization, improved forecasting, or clearer risk visibility.
+:::
+::: {.award-card}
+### Presentation impact
+The project’s recognition in grading and pitching demonstrates that technical quality was matched by communication quality.
+:::
+:::
+
+## Suggested evidence to include
+
+- Final metrics table
+- Comparison with baselines
+- Visual explanation of model behavior
+- One short statement on business significance

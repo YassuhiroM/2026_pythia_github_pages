@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title">
+  <title>Team member placeholder</title>
+  <rect width="800" height="1000" fill="#f1f4f6"/>
+  <circle cx="400" cy="320" r="150" fill="#d0d7de"/>
+  <path d="M170 840c40-170 150-250 230-250s190 80 230 250" fill="#d0d7de"/>
+  <rect x="80" y="70" width="640" height="860" rx="40" fill="none" stroke="#0b5c80" stroke-width="12"/>
+  <text x="400" y="930" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="38" fill="#5a6472">Replace with team photo</text>
+</svg>

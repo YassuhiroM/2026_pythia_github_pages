@@ -1,0 +1,34 @@
+---
+title: "Contacto"
+---
+
+::: {.lang-switcher}
+[English](../en/contact.html) {.lang-link}
+[Español](./contact.html) {.lang-link}
+:::
+
+## Contacto { .section-title }
+
+Para oportunidades, conversación técnica o una explicación del proyecto, puedes escribir a través de los siguientes canales.
+
+::: {.contact-grid}
+::: {.contact-card}
+### LinkedIn
+[linkedin.com/in/your-linkedin](https://www.linkedin.com/in/your-linkedin/)
+:::
+::: {.contact-card}
+### GitHub
+[github.com/your-username/pythia](https://github.com/your-username/pythia)
+:::
+::: {.contact-card}
+### Email
+[your.email@example.com](mailto:your.email@example.com)
+:::
+:::
+
+## Bloque de contacto
+
+Pythia  
+Trabajo Fin de Máster en la UCM  
+Ciencia de Datos  
+Disponible para entrevistas técnicas, walkthroughs del proyecto y conversaciones de colaboración

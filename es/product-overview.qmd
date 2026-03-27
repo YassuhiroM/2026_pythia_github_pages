@@ -1,0 +1,42 @@
+---
+title: "Visión general del producto"
+---
+
+::: {.lang-switcher}
+[English](../en/product-overview.html) {.lang-link}
+[Español](./product-overview.html) {.lang-link}
+:::
+
+## Visión General del Producto { .section-title }
+
+Pythia se presenta como un caso técnico con forma de producto, no como una entrega académica fragmentada. El objetivo es que un flujo sofisticado de ciencia de datos resulte entendible, creíble y útil para la toma de decisiones ante recruiters, hiring managers, evaluadores técnicos y profesores.
+
+::: {.feature-grid}
+::: {.content-card}
+### Propuesta de producto
+Transformar un problema analítico exigente en una experiencia clara, utilizable y fiable para apoyar decisiones.
+:::
+::: {.content-card}
+### Cualidades del producto
+Arquitectura legible, resultados explicables, metodología disciplinada y una presentación cuidada.
+:::
+::: {.content-card}
+### Audiencias principales
+Recruiters, hiring managers, evaluadores técnicos, profesores y colaboradores que buscan buena ejecución aplicada en ciencia de datos.
+:::
+:::
+
+## Principios de diseño
+
+- Claridad antes que complejidad
+- Evidencia antes que afirmaciones
+- Narrativa de producto sin perder rigor técnico
+- Lectura rápida para perfiles no especialistas y suficiente profundidad para revisión técnica
+
+## Material técnico de apoyo
+
+La web es la puerta de entrada. Los notebooks detallados, anexos, código, memoria y materiales de presentación pueden seguir viviendo en GitHub como referencias complementarias.
+
+::: {.callout-note}
+Sustituye los enlaces de ejemplo del repositorio por tus URLs reales para conectar la visión pulida del proyecto con su soporte técnico completo.
+:::

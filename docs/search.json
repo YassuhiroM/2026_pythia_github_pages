@@ -1,0 +1,450 @@
+[
+  {
+    "objectID": "en/data-methodology.html",
+    "href": "en/data-methodology.html",
+    "title": "Data and Methodology",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "en/data-methodology.html#data-and-methodology",
+    "href": "en/data-methodology.html#data-and-methodology",
+    "title": "Data and Methodology",
+    "section": "Data and Methodology",
+    "text": "Data and Methodology\nThe methodology is designed to be technically sound and easy to audit. Each phase of the workflow contributes to trust: data provenance, preprocessing decisions, evaluation design, and transparent interpretation.\n\n\nData pipeline\nDescribe the source datasets, acquisition approach, quality checks, feature preparation, and any enrichment steps.\n\n\nExperimental design\nExplain train-validation-test logic, baselines, metrics, and how leakage or bias risks were controlled.\n\n\nReproducibility\nDocument environment, versioning, notebooks, and repository structure so others can review or extend the work."
+  },
+  {
+    "objectID": "en/data-methodology.html#recommended-storyline",
+    "href": "en/data-methodology.html#recommended-storyline",
+    "title": "Data and Methodology",
+    "section": "Recommended Storyline",
+    "text": "Recommended Storyline\n\nData sources and scope\nCleaning and transformation\nFeature engineering\nEvaluation setup\nInterpretation and limitations\n\n\n\n\n\n\n\nNote\n\n\n\nThis page is intentionally structured for quick academic and hiring review. Replace the placeholder summaries with your exact dataset names, sample sizes, and validation choices."
+  },
+  {
+    "objectID": "en/results-impact.html",
+    "href": "en/results-impact.html",
+    "title": "Results and Impact",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "en/results-impact.html#results-and-impact",
+    "href": "en/results-impact.html#results-and-impact",
+    "title": "Results and Impact",
+    "section": "Results and Impact",
+    "text": "Results and Impact\nResults should show more than model metrics. Pythia is strongest when the performance story is connected to user value, decision quality, or operational improvement.\n\n\nQuantitative outcomes\nSummarize the main metrics, comparative improvements, and benchmark performance clearly and honestly.\n\n\nPractical impact\nTranslate results into what the model enables in practice: faster decisions, better prioritization, improved forecasting, or clearer risk visibility.\n\n\nPresentation impact\nThe project’s recognition in grading and pitching demonstrates that technical quality was matched by communication quality."
+  },
+  {
+    "objectID": "en/results-impact.html#suggested-evidence-to-include",
+    "href": "en/results-impact.html#suggested-evidence-to-include",
+    "title": "Results and Impact",
+    "section": "Suggested evidence to include",
+    "text": "Suggested evidence to include\n\nFinal metrics table\nComparison with baselines\nVisual explanation of model behavior\nOne short statement on business significance"
+  },
+  {
+    "objectID": "en/team.html",
+    "href": "en/team.html",
+    "title": "Team",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "en/team.html#team",
+    "href": "en/team.html#team",
+    "title": "Team",
+    "section": "Team",
+    "text": "Team\nPythia was shaped by a collaborative team with a shared focus on technical quality, product thinking, and clear communication.\n\n\n ### Team Member One Data science, experimentation, and analytical framing.\n\n\n ### Team Member Two Modeling, technical validation, and implementation.\n\n\n ### Team Member Three Product narrative, presentation, and stakeholder communication.\n\n\n\n\n\n\n\n\nNote\n\n\n\nReplace the placeholder images in /assets/images/team/ and update names and roles on this page. The layout is already responsive and ready for real photos."
+  },
+  {
+    "objectID": "en/contact.html",
+    "href": "en/contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "en/contact.html#contact",
+    "href": "en/contact.html#contact",
+    "title": "Contact",
+    "section": "Contact",
+    "text": "Contact\nFor opportunities, technical discussion, or a walkthrough of the project, reach out through the channels below.\n\n\nLinkedIn\nlinkedin.com/in/your-linkedin\n\n\nGitHub\ngithub.com/your-username/pythia\n\n\nEmail\nyour.email@example.com"
+  },
+  {
+    "objectID": "en/contact.html#contact-block",
+    "href": "en/contact.html#contact-block",
+    "title": "Contact",
+    "section": "Contact Block",
+    "text": "Contact Block\nPythia\nMaster’s Final Project at UCM\nData Science\nAvailable for technical interviews, project walkthroughs, and collaboration conversations"
+  },
+  {
+    "objectID": "en/modeling.html",
+    "href": "en/modeling.html",
+    "title": "Modeling",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "en/modeling.html#modeling",
+    "href": "en/modeling.html#modeling",
+    "title": "Modeling",
+    "section": "Modeling",
+    "text": "Modeling\nThe modeling section should communicate both technical judgment and restraint: why the chosen approaches fit the problem, what alternatives were considered, and how performance was balanced with interpretability and robustness.\n\n\nBaselines first\nBegin with simple benchmarks to establish a meaningful performance floor.\n\n\nModel selection\nPresent the final approach together with the reason it was selected over simpler or more complex alternatives.\n\n\nExplainability\nHighlight feature importance, decision logic, or model interpretation methods where relevant."
+  },
+  {
+    "objectID": "en/modeling.html#what-reviewers-look-for",
+    "href": "en/modeling.html#what-reviewers-look-for",
+    "title": "Modeling",
+    "section": "What reviewers look for",
+    "text": "What reviewers look for\n\nStrong rationale for model choice\nCareful tuning without overfitting\nHonest discussion of tradeoffs\nClear separation between technical ambition and business usefulness"
+  },
+  {
+    "objectID": "es/data-methodology.html",
+    "href": "es/data-methodology.html",
+    "title": "Datos y metodología",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "es/data-methodology.html#datos-y-metodología",
+    "href": "es/data-methodology.html#datos-y-metodología",
+    "title": "Datos y metodología",
+    "section": "Datos y Metodología",
+    "text": "Datos y Metodología\nLa metodología está pensada para ser técnicamente sólida y fácil de auditar. Cada fase del flujo contribuye a la confianza: procedencia de los datos, decisiones de preprocesado, diseño de evaluación e interpretación transparente.\n\n\nPipeline de datos\nDescribe las fuentes, el proceso de adquisición, los controles de calidad, la preparación de variables y cualquier enriquecimiento aplicado.\n\n\nDiseño experimental\nExplica la lógica train-validation-test, los baselines, las métricas y cómo se controlaron riesgos de fuga de información o sesgo.\n\n\nReproducibilidad\nDocumenta entorno, versionado, notebooks y estructura del repositorio para que otros puedan revisar o ampliar el trabajo."
+  },
+  {
+    "objectID": "es/data-methodology.html#hilo-narrativo-recomendado",
+    "href": "es/data-methodology.html#hilo-narrativo-recomendado",
+    "title": "Datos y metodología",
+    "section": "Hilo narrativo recomendado",
+    "text": "Hilo narrativo recomendado\n\nFuentes de datos y alcance\nLimpieza y transformación\nIngeniería de variables\nConfiguración de la evaluación\nInterpretación y limitaciones\n\n\n\n\n\n\n\nNote\n\n\n\nEsta página está estructurada para revisión rápida académica y profesional. Sustituye los resúmenes de ejemplo por los nombres reales de tus datasets, tamaños muestrales y decisiones de validación."
+  },
+  {
+    "objectID": "es/results-impact.html",
+    "href": "es/results-impact.html",
+    "title": "Resultados e impacto",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "es/results-impact.html#resultados-e-impacto",
+    "href": "es/results-impact.html#resultados-e-impacto",
+    "title": "Resultados e impacto",
+    "section": "Resultados e Impacto",
+    "text": "Resultados e Impacto\nLos resultados deben mostrar más que métricas. Pythia gana fuerza cuando la historia del rendimiento se conecta con el valor para el usuario, la calidad de la decisión o una mejora operativa.\n\n\nResultados cuantitativos\nResume las métricas principales, las mejoras comparativas y el rendimiento frente a baselines de forma clara y honesta.\n\n\nImpacto práctico\nTraduce los resultados a lo que el modelo permite en la práctica: decisiones más rápidas, mejor priorización, mejor previsión o mayor visibilidad del riesgo.\n\n\nImpacto comunicativo\nEl reconocimiento obtenido en la evaluación y en el pitch demuestra que la calidad técnica estuvo acompañada por una gran claridad expositiva."
+  },
+  {
+    "objectID": "es/results-impact.html#evidencias-recomendadas",
+    "href": "es/results-impact.html#evidencias-recomendadas",
+    "title": "Resultados e impacto",
+    "section": "Evidencias recomendadas",
+    "text": "Evidencias recomendadas\n\nTabla final de métricas\nComparación con baselines\nExplicación visual del comportamiento del modelo\nUna frase breve sobre la relevancia de negocio"
+  },
+  {
+    "objectID": "es/team.html",
+    "href": "es/team.html",
+    "title": "Equipo",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "es/team.html#equipo",
+    "href": "es/team.html#equipo",
+    "title": "Equipo",
+    "section": "Equipo",
+    "text": "Equipo\nPythia fue construido por un equipo con foco compartido en calidad técnica, pensamiento de producto y comunicación clara.\n\n\n ### Integrante Uno Ciencia de datos, experimentación y enfoque analítico.\n\n\n ### Integrante Dos Modelado, validación técnica e implementación.\n\n\n ### Integrante Tres Narrativa de producto, presentación y comunicación con stakeholders.\n\n\n\n\n\n\n\n\nNote\n\n\n\nSustituye las imágenes de ejemplo en /assets/images/team/ y actualiza nombres y roles en esta página. El diseño ya es responsive y está listo para fotos reales."
+  },
+  {
+    "objectID": "es/contact.html",
+    "href": "es/contact.html",
+    "title": "Contacto",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "es/contact.html#contacto",
+    "href": "es/contact.html#contacto",
+    "title": "Contacto",
+    "section": "Contacto",
+    "text": "Contacto\nPara oportunidades, conversación técnica o una explicación del proyecto, puedes escribir a través de los siguientes canales.\n\n\nLinkedIn\nlinkedin.com/in/your-linkedin\n\n\nGitHub\ngithub.com/your-username/pythia\n\n\nEmail\nyour.email@example.com"
+  },
+  {
+    "objectID": "es/contact.html#bloque-de-contacto",
+    "href": "es/contact.html#bloque-de-contacto",
+    "title": "Contacto",
+    "section": "Bloque de contacto",
+    "text": "Bloque de contacto\nPythia\nTrabajo Fin de Máster en la UCM\nCiencia de Datos\nDisponible para entrevistas técnicas, walkthroughs del proyecto y conversaciones de colaboración"
+  },
+  {
+    "objectID": "es/modeling.html",
+    "href": "es/modeling.html",
+    "title": "Modelado",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "es/modeling.html#modelado",
+    "href": "es/modeling.html#modelado",
+    "title": "Modelado",
+    "section": "Modelado",
+    "text": "Modelado\nLa sección de modelado debe comunicar tanto criterio técnico como contención: por qué los enfoques elegidos encajan con el problema, qué alternativas se consideraron y cómo se equilibró el rendimiento con la interpretabilidad y la robustez.\n\n\nBaselines primero\nEmpieza con referencias simples que establezcan un suelo de rendimiento realmente significativo.\n\n\nSelección del modelo\nPresenta el enfoque final junto con la razón por la que se eligió frente a alternativas más simples o más complejas.\n\n\nExplicabilidad\nDestaca importancia de variables, lógica de decisión o métodos de interpretación del modelo cuando corresponda."
+  },
+  {
+    "objectID": "es/modeling.html#lo-que-suele-revisar-un-evaluador",
+    "href": "es/modeling.html#lo-que-suele-revisar-un-evaluador",
+    "title": "Modelado",
+    "section": "Lo que suele revisar un evaluador",
+    "text": "Lo que suele revisar un evaluador\n\nJustificación sólida de la elección del modelo\nAjuste cuidadoso sin sobreentrenamiento\nDiscusión honesta de tradeoffs\nSeparación clara entre ambición técnica y utilidad de negocio"
+  },
+  {
+    "objectID": "es/business-problem.html",
+    "href": "es/business-problem.html",
+    "title": "Problema de negocio",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "es/business-problem.html#problema-de-negocio",
+    "href": "es/business-problem.html#problema-de-negocio",
+    "title": "Problema de negocio",
+    "section": "Problema de Negocio",
+    "text": "Problema de Negocio\nPythia parte de un reto real de toma de decisiones: cómo convertir los datos disponibles en una guía fiable que permita actuar mejor y más rápido. El proyecto está planteado alrededor del impacto práctico del análisis, no solo de las métricas del modelo.\n\n\nPor qué importa\nMuchas organizaciones tienen datos, pero no una forma clara y confiable de traducirlos en decisiones operativas o estratégicas.\n\n\nLa brecha\nLa información bruta no genera valor por sí sola. Falta un flujo analítico robusto que produzca insight realmente utilizable.\n\n\nAportación de Pythia\nPythia estructura el problema, formaliza el enfoque analítico y presenta resultados que conectan la salida técnica con la acción real."
+  },
+  {
+    "objectID": "es/business-problem.html#criterios-de-éxito",
+    "href": "es/business-problem.html#criterios-de-éxito",
+    "title": "Problema de negocio",
+    "section": "Criterios de éxito",
+    "text": "Criterios de éxito\n\nRelevancia de negocio\nRigor analítico\nInterpretabilidad\nCalidad de comunicación\nPresentación con estilo de producto apta para audiencias no académicas"
+  },
+  {
+    "objectID": "es/video-demo.html",
+    "href": "es/video-demo.html",
+    "title": "Demo en video",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "es/video-demo.html#demo-en-video",
+    "href": "es/video-demo.html#demo-en-video",
+    "title": "Demo en video",
+    "section": "Demo en Video",
+    "text": "Demo en Video\nLa demo ofrece una comprensión rápida de qué es Pythia, cómo funciona y por qué importa."
+  },
+  {
+    "objectID": "es/video-demo.html#enfoque-recomendado",
+    "href": "es/video-demo.html#enfoque-recomendado",
+    "title": "Demo en video",
+    "section": "Enfoque recomendado",
+    "text": "Enfoque recomendado\n\nQué problema resuelve el proyecto\nQué está viendo el usuario o evaluador\nQué profundidad técnica hay detrás de la interfaz\nPor qué el resultado final destaca como proyecto y como producto"
+  },
+  {
+    "objectID": "es/product-overview.html",
+    "href": "es/product-overview.html",
+    "title": "Visión general del producto",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "es/product-overview.html#visión-general-del-producto",
+    "href": "es/product-overview.html#visión-general-del-producto",
+    "title": "Visión general del producto",
+    "section": "Visión General del Producto",
+    "text": "Visión General del Producto\nPythia se presenta como un caso técnico con forma de producto, no como una entrega académica fragmentada. El objetivo es que un flujo sofisticado de ciencia de datos resulte entendible, creíble y útil para la toma de decisiones ante recruiters, hiring managers, evaluadores técnicos y profesores.\n\n\nPropuesta de producto\nTransformar un problema analítico exigente en una experiencia clara, utilizable y fiable para apoyar decisiones.\n\n\nCualidades del producto\nArquitectura legible, resultados explicables, metodología disciplinada y una presentación cuidada.\n\n\nAudiencias principales\nRecruiters, hiring managers, evaluadores técnicos, profesores y colaboradores que buscan buena ejecución aplicada en ciencia de datos."
+  },
+  {
+    "objectID": "es/product-overview.html#principios-de-diseño",
+    "href": "es/product-overview.html#principios-de-diseño",
+    "title": "Visión general del producto",
+    "section": "Principios de diseño",
+    "text": "Principios de diseño\n\nClaridad antes que complejidad\nEvidencia antes que afirmaciones\nNarrativa de producto sin perder rigor técnico\nLectura rápida para perfiles no especialistas y suficiente profundidad para revisión técnica"
+  },
+  {
+    "objectID": "es/product-overview.html#material-técnico-de-apoyo",
+    "href": "es/product-overview.html#material-técnico-de-apoyo",
+    "title": "Visión general del producto",
+    "section": "Material técnico de apoyo",
+    "text": "Material técnico de apoyo\nLa web es la puerta de entrada. Los notebooks detallados, anexos, código, memoria y materiales de presentación pueden seguir viviendo en GitHub como referencias complementarias.\n\n\n\n\n\n\nNote\n\n\n\nSustituye los enlaces de ejemplo del repositorio por tus URLs reales para conectar la visión pulida del proyecto con su soporte técnico completo."
+  },
+  {
+    "objectID": "es/index.html",
+    "href": "es/index.html",
+    "title": "Inicio",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "es/index.html#por-qué-pythia",
+    "href": "es/index.html#por-qué-pythia",
+    "title": "Inicio",
+    "section": "Por qué Pythia",
+    "text": "Por qué Pythia\nPythia convierte un reto complejo de ciencia de datos en una historia de producto coherente. El proyecto combina metodología rigurosa, decisiones de modelado explicables y una experiencia pulida de principio a fin para que recruiters, profesores y evaluadores técnicos entiendan tanto el valor de negocio como la calidad técnica en menos de tres minutos.\n\n\nVisión general del producto\nDesde el concepto hasta la interfaz, Pythia se presenta como un producto utilizable y no solo como un conjunto de notebooks.\nExplorar la visión general\n\n\nDatos y metodología\nEl flujo analítico está documentado con claridad, desde las fuentes y el tratamiento de datos hasta el diseño de la evaluación.\nRevisar la metodología\n\n\nResultados e impacto\nEl rendimiento se presenta junto con sus implicaciones prácticas, su relevancia de negocio y la calidad de la comunicación.\nVer resultados"
+  },
+  {
+    "objectID": "es/index.html#en-tres-minutos",
+    "href": "es/index.html#en-tres-minutos",
+    "title": "Inicio",
+    "section": "En Tres Minutos",
+    "text": "En Tres Minutos\n\n\nQué resuelve\nPythia aborda un problema de negocio relevante desde una perspectiva de apoyo a la decisión, convirtiendo datos brutos en insight accionable.\n\n\nCómo funciona\nEl sistema combina trabajo sólido con datos estructurados, metodología rigurosa y decisiones de modelado interpretables dentro de una narrativa clara de producto.\n\n\nPor qué destaca\nObtuvo la calificación máxima y el segundo puesto en un concurso de pitch, lo que demuestra profundidad técnica y gran capacidad de comunicación."
+  },
+  {
+    "objectID": "es/index.html#demo-en-video",
+    "href": "es/index.html#demo-en-video",
+    "title": "Inicio",
+    "section": "Demo en Video",
+    "text": "Demo en Video"
+  },
+  {
+    "objectID": "es/index.html#referencias-técnicas-de-apoyo",
+    "href": "es/index.html#referencias-técnicas-de-apoyo",
+    "title": "Inicio",
+    "section": "Referencias Técnicas de Apoyo",
+    "text": "Referencias Técnicas de Apoyo\nTus materiales técnicos existentes de GitHub pueden vivir junto al sitio como evidencia de apoyo, sin marcar el diseño de la portada.\n\nRepositorio Memoria técnica Presentación"
+  },
+  {
+    "objectID": "es/index.html#siguientes-secciones",
+    "href": "es/index.html#siguientes-secciones",
+    "title": "Inicio",
+    "section": "Siguientes Secciones",
+    "text": "Siguientes Secciones\n\n\nEquipo\nConoce a las personas detrás del proyecto y los roles que dieron forma al resultado final.\nVer equipo\n\n\nPremios y reconocimiento\nConsulta los logros académicos y de presentación que diferencian el proyecto.\nVer premios\n\n\nContacto\nEscribe para oportunidades, conversación técnica o una explicación más detallada.\nAbrir contacto"
+  },
+  {
+    "objectID": "es/awards-recognition.html",
+    "href": "es/awards-recognition.html",
+    "title": "Premios y reconocimiento",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "es/awards-recognition.html#premios-y-reconocimiento",
+    "href": "es/awards-recognition.html#premios-y-reconocimiento",
+    "title": "Premios y reconocimiento",
+    "section": "Premios y Reconocimiento",
+    "text": "Premios y Reconocimiento\nEl proyecto unió buen trabajo técnico con buena comunicación, y los resultados lo reflejan.\n\n\nCalificación máxima\nPythia obtuvo la máxima evaluación académica en el Trabajo Fin de Máster.\n\n\n2.º puesto en concurso de pitch\nEl proyecto también destacó en contexto de presentación, validando su claridad, storytelling y posicionamiento práctico.\n\n\nPresentación lista para recruiters\nLa combinación de acabado de producto y profundidad técnica hace que el proyecto funcione especialmente bien en conversaciones de selección."
+  },
+  {
+    "objectID": "en/business-problem.html",
+    "href": "en/business-problem.html",
+    "title": "Business Problem",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "en/business-problem.html#business-problem",
+    "href": "en/business-problem.html#business-problem",
+    "title": "Business Problem",
+    "section": "Business Problem",
+    "text": "Business Problem\nPythia starts from a real decision-making challenge: how to convert available data into reliable guidance that supports faster, better-informed action. The project is framed around the practical impact of the analysis, not only around model performance.\n\n\nWhy this matters\nOrganizations often have data but lack a clear, trustworthy way to translate it into operational or strategic decisions.\n\n\nThe gap\nRaw information alone does not create value. The missing step is a robust analytical workflow that produces insight decision-makers can actually use.\n\n\nPythia’s contribution\nPythia structures the problem, formalizes the analytical approach, and presents results in a way that connects technical output with real-world action."
+  },
+  {
+    "objectID": "en/business-problem.html#success-criteria",
+    "href": "en/business-problem.html#success-criteria",
+    "title": "Business Problem",
+    "section": "Success Criteria",
+    "text": "Success Criteria\n\nBusiness relevance\nAnalytical rigor\nInterpretability\nCommunication quality\nProduct-style presentation suitable for non-academic audiences"
+  },
+  {
+    "objectID": "en/video-demo.html",
+    "href": "en/video-demo.html",
+    "title": "Video Demo",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "en/video-demo.html#video-demo",
+    "href": "en/video-demo.html#video-demo",
+    "title": "Video Demo",
+    "section": "Video Demo",
+    "text": "Video Demo\nThe demo gives a fast understanding of what Pythia is, how it works, and why it matters."
+  },
+  {
+    "objectID": "en/video-demo.html#recommended-framing",
+    "href": "en/video-demo.html#recommended-framing",
+    "title": "Video Demo",
+    "section": "Recommended framing",
+    "text": "Recommended framing\n\nWhat problem the project solves\nWhat the user or evaluator is seeing\nWhat technical depth sits behind the interface\nWhy the final result stands out as both a project and a product"
+  },
+  {
+    "objectID": "en/product-overview.html",
+    "href": "en/product-overview.html",
+    "title": "Product Overview",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "en/product-overview.html#product-overview",
+    "href": "en/product-overview.html#product-overview",
+    "title": "Product Overview",
+    "section": "Product Overview",
+    "text": "Product Overview\nPythia is presented as a technical product case study rather than a disconnected academic submission. The goal is to make a sophisticated data science workflow feel understandable, credible, and decision-ready for audiences ranging from recruiters to professors.\n\n\nProduct promise\nTransform a demanding analytical problem into a clear, usable, and high-confidence decision-support experience.\n\n\nProduct qualities\nReadable architecture, explainable outputs, disciplined methodology, and presentation polish.\n\n\nIntended audiences\nRecruiters, hiring managers, technical evaluators, professors, and collaborators looking for strong applied data science execution."
+  },
+  {
+    "objectID": "en/product-overview.html#design-principles",
+    "href": "en/product-overview.html#design-principles",
+    "title": "Product Overview",
+    "section": "Design Principles",
+    "text": "Design Principles\n\nClarity before complexity\nEvidence before claims\nProduct storytelling without sacrificing technical rigor\nFast scanning for non-specialists and enough depth for technical review"
+  },
+  {
+    "objectID": "en/product-overview.html#supporting-technical-materials",
+    "href": "en/product-overview.html#supporting-technical-materials",
+    "title": "Product Overview",
+    "section": "Supporting Technical Materials",
+    "text": "Supporting Technical Materials\nThe website is the front door. Detailed notebooks, appendices, code, report chapters, and presentation assets can remain in the linked GitHub materials as supporting references.\n\n\n\n\n\n\nNote\n\n\n\nReplace the placeholder repository links across the site with your real project URLs to connect the polished overview with the full technical record."
+  },
+  {
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "Home",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "en/index.html#why-pythia",
+    "href": "en/index.html#why-pythia",
+    "title": "Home",
+    "section": "Why Pythia",
+    "text": "Why Pythia\nPythia turns a complex data science challenge into a coherent product story. The project combines rigorous methodology, explainable modeling choices, and a polished end-to-end experience so recruiters, professors, and technical evaluators can understand both the business value and the engineering quality in less than three minutes.\n\n\nProduct overview\nFrom concept to interface, Pythia is framed as a usable product rather than only a model notebook.\nExplore the product overview\n\n\nData and methodology\nThe analytical workflow is documented clearly, from sourcing and preparation to evaluation design.\nReview the methodology\n\n\nResults and impact\nPerformance is presented together with practical implications, business relevance, and communication quality.\nSee the results"
+  },
+  {
+    "objectID": "en/index.html#in-three-minutes",
+    "href": "en/index.html#in-three-minutes",
+    "title": "Home",
+    "section": "In Three Minutes",
+    "text": "In Three Minutes\n\n\nWhat it solves\nPythia addresses a meaningful business problem with a decision-support perspective, translating raw data into insight that can guide action.\n\n\nHow it works\nThe system combines structured data work, sound methodology, and interpretable modeling decisions within a clear product narrative.\n\n\nWhy it stands out\nIt was awarded the maximum grade and placed second in a pitch contest, reflecting both technical depth and strong communication."
+  },
+  {
+    "objectID": "en/index.html#video-demo",
+    "href": "en/index.html#video-demo",
+    "title": "Home",
+    "section": "Video Demo",
+    "text": "Video Demo"
+  },
+  {
+    "objectID": "en/index.html#supporting-references",
+    "href": "en/index.html#supporting-references",
+    "title": "Home",
+    "section": "Supporting References",
+    "text": "Supporting References\nYour existing technical materials can live alongside the website as supporting evidence rather than driving the homepage design.\n\nRepository Technical report Slides"
+  },
+  {
+    "objectID": "en/index.html#next-stops",
+    "href": "en/index.html#next-stops",
+    "title": "Home",
+    "section": "Next Stops",
+    "text": "Next Stops\n\n\nTeam\nMeet the people behind the project and the roles that shaped the final delivery.\nMeet the team\n\n\nAwards and recognition\nSee the academic and presentation achievements that differentiate the project.\nView awards\n\n\nContact\nReach out for opportunities, technical discussion, or a deeper walkthrough.\nOpen contact page"
+  },
+  {
+    "objectID": "en/awards-recognition.html",
+    "href": "en/awards-recognition.html",
+    "title": "Awards and Recognition",
+    "section": "",
+    "text": "English {.lang-link} Español {.lang-link}"
+  },
+  {
+    "objectID": "en/awards-recognition.html#awards-and-recognition",
+    "href": "en/awards-recognition.html#awards-and-recognition",
+    "title": "Awards and Recognition",
+    "section": "Awards and Recognition",
+    "text": "Awards and Recognition\nThe project combined strong technical work with strong communication, and the outcomes reflect both.\n\n\nMaximum grade\nPythia received the highest academic evaluation for the final project.\n\n\n2nd place in pitch contest\nThe project also stood out in a presentation setting, validating its clarity, storytelling, and practical positioning.\n\n\nRecruiter-ready presentation\nThe combination of product polish and technical depth makes the project unusually effective for hiring conversations."
+  }
+]

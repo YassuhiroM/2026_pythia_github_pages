@@ -1,0 +1,124 @@
+---
+title: "Inicio"
+page-layout: full
+---
+
+::: {.lang-switcher}
+[English](../en/) {.lang-link}
+[Español](./) {.lang-link}
+:::
+
+::: {.hero-shell}
+[]{.eyebrow} Caso técnico con acabado de producto
+
+# Pythia { .hero-title }
+
+Trabajo Fin de Máster en la UCM. Un producto de ciencia de datos premiado, diseñado para entenderse rápido, evaluarse con rigor y recordarse por su claridad.
+{.hero-subtitle}
+
+::: {.badge-row}
+::: {.hero-badge}
+**Trabajo Fin de Máster en la UCM**
+Calificación máxima otorgada por el tribunal
+:::
+::: {.hero-badge}
+**Calificación máxima**
+Excelencia académica y técnica reconocida formalmente
+:::
+::: {.hero-badge}
+**2.º puesto en concurso de pitch**
+Validación de la calidad comunicativa y de la visión de producto
+:::
+::: {.hero-badge}
+**Construido como producto real**
+Profundidad de caso técnico con ejecución y presentación de estilo startup
+:::
+:::
+
+::: {.cta-row}
+[GitHub](https://github.com/your-username/pythia){.cta-button .cta-primary}
+[LinkedIn](https://www.linkedin.com/in/your-linkedin/){.cta-button .cta-secondary}
+[Ver demo](https://youtu.be/gkD9bKw1ikY){.cta-button .cta-tertiary}
+:::
+:::
+
+## Por qué Pythia { .section-title }
+
+Pythia convierte un reto complejo de ciencia de datos en una historia de producto coherente. El proyecto combina metodología rigurosa, decisiones de modelado explicables y una experiencia pulida de principio a fin para que recruiters, profesores y evaluadores técnicos entiendan tanto el valor de negocio como la calidad técnica en menos de tres minutos.
+
+::: {.feature-grid}
+::: {.content-card}
+### Visión general del producto
+Desde el concepto hasta la interfaz, Pythia se presenta como un producto utilizable y no solo como un conjunto de notebooks.
+
+[Explorar la visión general](./product-overview.html)
+:::
+::: {.content-card}
+### Datos y metodología
+El flujo analítico está documentado con claridad, desde las fuentes y el tratamiento de datos hasta el diseño de la evaluación.
+
+[Revisar la metodología](./data-methodology.html)
+:::
+::: {.content-card}
+### Resultados e impacto
+El rendimiento se presenta junto con sus implicaciones prácticas, su relevancia de negocio y la calidad de la comunicación.
+
+[Ver resultados](./results-impact.html)
+:::
+:::
+
+## En Tres Minutos { .section-title }
+
+::: {.page-grid}
+::: {.info-panel}
+### Qué resuelve
+Pythia aborda un problema de negocio relevante desde una perspectiva de apoyo a la decisión, convirtiendo datos brutos en insight accionable.
+:::
+::: {.info-panel}
+### Cómo funciona
+El sistema combina trabajo sólido con datos estructurados, metodología rigurosa y decisiones de modelado interpretables dentro de una narrativa clara de producto.
+:::
+::: {.info-panel}
+### Por qué destaca
+Obtuvo la calificación máxima y el segundo puesto en un concurso de pitch, lo que demuestra profundidad técnica y gran capacidad de comunicación.
+:::
+:::
+
+## Demo en Video { .section-title }
+
+::: {.youtube-frame}
+<iframe src="https://www.youtube.com/embed/gkD9bKw1ikY" title="Video demo de Pythia" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
+
+## Referencias Técnicas de Apoyo { .section-title }
+
+Tus materiales técnicos existentes de GitHub pueden vivir junto al sitio como evidencia de apoyo, sin marcar el diseño de la portada.
+
+::: {.reference-links}
+[Repositorio](https://github.com/your-username/pythia)
+[Memoria técnica](https://github.com/your-username/pythia)
+[Presentación](https://github.com/your-username/pythia)
+:::
+
+## Siguientes Secciones { .section-title }
+
+::: {.feature-grid}
+::: {.content-card}
+### Equipo
+Conoce a las personas detrás del proyecto y los roles que dieron forma al resultado final.
+
+[Ver equipo](./team.html)
+:::
+::: {.content-card}
+### Premios y reconocimiento
+Consulta los logros académicos y de presentación que diferencian el proyecto.
+
+[Ver premios](./awards-recognition.html)
+:::
+::: {.content-card}
+### Contacto
+Escribe para oportunidades, conversación técnica o una explicación más detallada.
+
+[Abrir contacto](./contact.html)
+:::
+:::

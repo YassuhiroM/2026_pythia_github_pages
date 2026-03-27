@@ -1,0 +1,23 @@
+---
+title: "Video Demo"
+---
+
+::: {.lang-switcher}
+[English](./video-demo.html) {.lang-link}
+[Español](../es/video-demo.html) {.lang-link}
+:::
+
+## Video Demo { .section-title }
+
+The demo gives a fast understanding of what Pythia is, how it works, and why it matters.
+
+::: {.youtube-frame}
+<iframe src="https://www.youtube.com/embed/gkD9bKw1ikY" title="Pythia demo video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
+
+## Recommended framing
+
+- What problem the project solves
+- What the user or evaluator is seeing
+- What technical depth sits behind the interface
+- Why the final result stands out as both a project and a product

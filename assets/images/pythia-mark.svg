@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title>Pythia mark</title>
+  <rect width="120" height="120" rx="28" fill="#1b1f23"/>
+  <path d="M32 84V36h27.8c13.4 0 22.2 7.2 22.2 18.7 0 11.2-8.8 18.7-22.2 18.7H44.2V84H32zm12.2-21.1h15c6.6 0 10.6-3 10.6-8.2 0-5.1-4-8.2-10.6-8.2h-15v16.4z" fill="#f6f4ef"/>
+  <circle cx="86" cy="34" r="10" fill="#b2872f"/>
+</svg>

@@ -1,0 +1,34 @@
+---
+title: "Resultados e impacto"
+---
+
+::: {.lang-switcher}
+[English](../en/results-impact.html) {.lang-link}
+[Español](./results-impact.html) {.lang-link}
+:::
+
+## Resultados e Impacto { .section-title }
+
+Los resultados deben mostrar más que métricas. Pythia gana fuerza cuando la historia del rendimiento se conecta con el valor para el usuario, la calidad de la decisión o una mejora operativa.
+
+::: {.page-grid}
+::: {.award-card}
+### Resultados cuantitativos
+Resume las métricas principales, las mejoras comparativas y el rendimiento frente a baselines de forma clara y honesta.
+:::
+::: {.award-card}
+### Impacto práctico
+Traduce los resultados a lo que el modelo permite en la práctica: decisiones más rápidas, mejor priorización, mejor previsión o mayor visibilidad del riesgo.
+:::
+::: {.award-card}
+### Impacto comunicativo
+El reconocimiento obtenido en la evaluación y en el pitch demuestra que la calidad técnica estuvo acompañada por una gran claridad expositiva.
+:::
+:::
+
+## Evidencias recomendadas
+
+- Tabla final de métricas
+- Comparación con baselines
+- Explicación visual del comportamiento del modelo
+- Una frase breve sobre la relevancia de negocio

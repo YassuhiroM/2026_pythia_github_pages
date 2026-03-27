@@ -1,0 +1,39 @@
+---
+title: "Data and Methodology"
+---
+
+::: {.lang-switcher}
+[English](./data-methodology.html) {.lang-link}
+[Español](../es/data-methodology.html) {.lang-link}
+:::
+
+## Data and Methodology { .section-title }
+
+The methodology is designed to be technically sound and easy to audit. Each phase of the workflow contributes to trust: data provenance, preprocessing decisions, evaluation design, and transparent interpretation.
+
+::: {.feature-grid}
+::: {.content-card}
+### Data pipeline
+Describe the source datasets, acquisition approach, quality checks, feature preparation, and any enrichment steps.
+:::
+::: {.content-card}
+### Experimental design
+Explain train-validation-test logic, baselines, metrics, and how leakage or bias risks were controlled.
+:::
+::: {.content-card}
+### Reproducibility
+Document environment, versioning, notebooks, and repository structure so others can review or extend the work.
+:::
+:::
+
+## Recommended Storyline
+
+1. Data sources and scope
+2. Cleaning and transformation
+3. Feature engineering
+4. Evaluation setup
+5. Interpretation and limitations
+
+::: {.callout-note}
+This page is intentionally structured for quick academic and hiring review. Replace the placeholder summaries with your exact dataset names, sample sizes, and validation choices.
+:::

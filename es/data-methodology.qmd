@@ -1,0 +1,39 @@
+---
+title: "Datos y metodología"
+---
+
+::: {.lang-switcher}
+[English](../en/data-methodology.html) {.lang-link}
+[Español](./data-methodology.html) {.lang-link}
+:::
+
+## Datos y Metodología { .section-title }
+
+La metodología está pensada para ser técnicamente sólida y fácil de auditar. Cada fase del flujo contribuye a la confianza: procedencia de los datos, decisiones de preprocesado, diseño de evaluación e interpretación transparente.
+
+::: {.feature-grid}
+::: {.content-card}
+### Pipeline de datos
+Describe las fuentes, el proceso de adquisición, los controles de calidad, la preparación de variables y cualquier enriquecimiento aplicado.
+:::
+::: {.content-card}
+### Diseño experimental
+Explica la lógica train-validation-test, los baselines, las métricas y cómo se controlaron riesgos de fuga de información o sesgo.
+:::
+::: {.content-card}
+### Reproducibilidad
+Documenta entorno, versionado, notebooks y estructura del repositorio para que otros puedan revisar o ampliar el trabajo.
+:::
+:::
+
+## Hilo narrativo recomendado
+
+1. Fuentes de datos y alcance
+2. Limpieza y transformación
+3. Ingeniería de variables
+4. Configuración de la evaluación
+5. Interpretación y limitaciones
+
+::: {.callout-note}
+Esta página está estructurada para revisión rápida académica y profesional. Sustituye los resúmenes de ejemplo por los nombres reales de tus datasets, tamaños muestrales y decisiones de validación.
+:::

@@ -1,0 +1,34 @@
+---
+title: "Modelado"
+---
+
+::: {.lang-switcher}
+[English](../en/modeling.html) {.lang-link}
+[Español](./modeling.html) {.lang-link}
+:::
+
+## Modelado { .section-title }
+
+La sección de modelado debe comunicar tanto criterio técnico como contención: por qué los enfoques elegidos encajan con el problema, qué alternativas se consideraron y cómo se equilibró el rendimiento con la interpretabilidad y la robustez.
+
+::: {.feature-grid}
+::: {.content-card}
+### Baselines primero
+Empieza con referencias simples que establezcan un suelo de rendimiento realmente significativo.
+:::
+::: {.content-card}
+### Selección del modelo
+Presenta el enfoque final junto con la razón por la que se eligió frente a alternativas más simples o más complejas.
+:::
+::: {.content-card}
+### Explicabilidad
+Destaca importancia de variables, lógica de decisión o métodos de interpretación del modelo cuando corresponda.
+:::
+:::
+
+## Lo que suele revisar un evaluador
+
+- Justificación sólida de la elección del modelo
+- Ajuste cuidadoso sin sobreentrenamiento
+- Discusión honesta de tradeoffs
+- Separación clara entre ambición técnica y utilidad de negocio
