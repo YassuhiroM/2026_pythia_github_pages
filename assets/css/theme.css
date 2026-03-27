@@ -75,6 +75,7 @@ h3 {
 .hero-shell {
   padding: 3.5rem clamp(1.2rem, 3vw, 3rem);
   margin: 1.5rem 0 2rem;
+  max-width: 100%;
 }
 
 .eyebrow {
@@ -97,6 +98,7 @@ h3 {
   max-width: 52rem;
   font-size: var(--step-1);
   line-height: 1.5;
+  margin-bottom: 1.4rem;
 }
 
 .badge-row,
@@ -111,7 +113,7 @@ h3 {
 }
 
 .badge-row {
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   margin: 1.8rem 0;
 }
 
@@ -123,11 +125,16 @@ h3 {
   background: linear-gradient(180deg, #fff, #f8fbfc);
 }
 
+.hero-badge {
+  min-width: 0;
+}
+
 .hero-badge strong,
 .mini-stat strong {
   display: block;
   font-size: var(--step-0);
   line-height: 1.3;
+  margin-bottom: 0.35rem;
 }
 
 .hero-badge span,
@@ -138,7 +145,7 @@ h3 {
 }
 
 .cta-row {
-  grid-template-columns: repeat(auto-fit, minmax(180px, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(160px, max-content));
   align-items: center;
 }
 
@@ -276,6 +283,10 @@ h3 {
 @media (max-width: 767px) {
   .hero-shell {
     padding: 2rem 1.1rem;
+  }
+
+  .badge-row {
+    grid-template-columns: 1fr;
   }
 
   .hero-title {

@@ -13,25 +13,26 @@ page-layout: full
 
 # Pythia { .hero-title }
 
+::: {.hero-subtitle}
 Trabajo Fin de Máster en la UCM. Un producto de ciencia de datos premiado, diseñado para entenderse rápido, evaluarse con rigor y recordarse por su claridad.
-{.hero-subtitle}
+:::
 
 ::: {.badge-row}
 ::: {.hero-badge}
-**Trabajo Fin de Máster en la UCM**
-Calificación máxima otorgada por el tribunal
+<strong>Trabajo Fin de Máster en la UCM</strong>
+<span>Calificación máxima otorgada por el tribunal</span>
 :::
 ::: {.hero-badge}
-**Calificación máxima**
-Excelencia académica y técnica reconocida formalmente
+<strong>Calificación máxima</strong>
+<span>Excelencia académica y técnica reconocida formalmente</span>
 :::
 ::: {.hero-badge}
-**2.º puesto en concurso de pitch**
-Validación de la calidad comunicativa y de la visión de producto
+<strong>2.º puesto en concurso de pitch</strong>
+<span>Validación de la calidad comunicativa y de la visión de producto</span>
 :::
 ::: {.hero-badge}
-**Construido como producto real**
-Profundidad de caso técnico con ejecución y presentación de estilo startup
+<strong>Construido como producto real</strong>
+<span>Profundidad de caso técnico con ejecución y presentación de estilo startup</span>
 :::
 :::
 

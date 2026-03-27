@@ -13,25 +13,26 @@ page-layout: full
 
 # Pythia { .hero-title }
 
+::: {.hero-subtitle}
 Master’s Final Project at UCM. An award-winning data science product designed to be understood quickly, evaluated rigorously, and remembered for its clarity.
-{.hero-subtitle}
+:::
 
 ::: {.badge-row}
 ::: {.hero-badge}
-**Master’s Final Project at UCM**
-Awarded the maximum grade
+<strong>Master’s Final Project at UCM</strong>
+<span>Awarded the maximum grade</span>
 :::
 ::: {.hero-badge}
-**Maximum grade**
-Academic and technical excellence recognized by the evaluation panel
+<strong>Maximum grade</strong>
+<span>Academic and technical excellence recognized by the evaluation panel</span>
 :::
 ::: {.hero-badge}
-**2nd place in pitch contest**
-Validated for communication quality and product vision
+<strong>2nd place in pitch contest</strong>
+<span>Validated for communication quality and product vision</span>
 :::
 ::: {.hero-badge}
-**Built as a real product**
-Case study depth with startup-style execution and presentation
+<strong>Built as a real product</strong>
+<span>Case study depth with startup-style execution and presentation</span>
 :::
 :::
 
