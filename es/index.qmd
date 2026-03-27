@@ -30,12 +30,15 @@ Proyecto final del Máster en Ciencia de Datos en UCM/NTIC.
 :::
 ::: {.hero-badge}
 <strong>Construido como producto real</strong>
-<span>Presentado como un MVP funcional en Streamlit, con reconocimientos como la calificación máxima y el 2.º puesto en un concurso de pitch.</span>
+<span>Presentado como un MVP funcional en Streamlit, mostrando el proyecto como un producto utilizable y no solo como una entrega académica.</span>
+:::
+::: {.hero-badge}
+<strong>Reconocimientos</strong>
+<span>Obtuvo la calificación máxima y el 2.º puesto en un concurso de pitch.</span>
 :::
 :::
 
 ::: {.cta-row}
-[LinkedIn](https://www.linkedin.com/in/your-linkedin/){.cta-button .cta-secondary}
 [Ver demo](https://youtu.be/gkD9bKw1ikY){.cta-button .cta-tertiary}
 :::
 :::

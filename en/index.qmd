@@ -30,12 +30,15 @@ Final project for the Master in Data Science at UCM/NTIC.
 :::
 ::: {.hero-badge}
 <strong>Built as a real product</strong>
-<span>Presented as a functioning MVP in Streamlit, with recognitions including the maximum grade and 2nd place in a pitch contest.</span>
+<span>Presented as a functioning MVP in Streamlit, showing the project as a usable product rather than only an academic deliverable.</span>
+:::
+::: {.hero-badge}
+<strong>Recognitions</strong>
+<span>Received the maximum grade and earned 2nd place in a pitch contest.</span>
 :::
 :::
 
 ::: {.cta-row}
-[LinkedIn](https://www.linkedin.com/in/your-linkedin/){.cta-button .cta-secondary}
 [Watch Demo](https://youtu.be/gkD9bKw1ikY){.cta-button .cta-tertiary}
 :::
 :::
