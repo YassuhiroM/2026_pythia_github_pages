@@ -313,6 +313,13 @@ h3 {
   border-top: 1px solid rgba(27, 31, 35, 0.08);
 }
 
+.detail-visual {
+  width: 100%;
+  margin: 0.9rem 0 0.75rem;
+  border-radius: 12px;
+  border: 1px solid rgba(27, 31, 35, 0.08);
+}
+
 .content-card h3,
 .team-card h3,
 .award-card h3,
@@ -378,19 +385,29 @@ h3 {
 .team-item span {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
+  font-size: var(--step--1);
 }
 
-.icon-link {
+.icon-link,
+.linkedin-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  gap: 0.45rem;
   border-radius: 999px;
   background: rgba(10, 102, 194, 0.08);
+  color: #0A66C2;
+  text-decoration: none;
+  font: 600 0.82rem/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.icon-link img {
+.linkedin-button {
+  min-height: 34px;
+  padding: 0.35rem 0.75rem;
+}
+
+.icon-link img,
+.linkedin-button img {
   width: 18px;
   height: 18px;
 }
@@ -401,12 +418,13 @@ h3 {
 }
 
 .award-photo {
-  width: 100%;
+  width: min(70%, 420px);
   aspect-ratio: 16 / 10;
   object-fit: cover;
   border-radius: 14px;
   margin: 0.9rem 0 0.75rem;
   border: 1px solid rgba(27, 31, 35, 0.08);
+  display: block;
 }
 
 .contact-actions {

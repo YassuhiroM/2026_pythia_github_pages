@@ -124,7 +124,18 @@ ul.task-list li input[type="checkbox"] {
 <p>Master’s final project for the Master in Data Science at UCM/NTIC, combining demand forecasting and customer review analysis into a practical decision-support tool for specialty cafés.</p>
 </div>
 <div class="hero-skills">
-<p><span class="skill-chip"></span> CRISP-DM <span class="skill-chip"></span> ETL / Data Preparation <span class="skill-chip"></span> Exploratory Data Analysis <span class="skill-chip"></span> Feature Engineering <span class="skill-chip"></span> Time-Series Forecasting <span class="skill-chip"></span> Prophet <span class="skill-chip"></span> NLP / Text Mining <span class="skill-chip"></span> YAKE <span class="skill-chip"></span> Sentence-BERT <span class="skill-chip"></span> Model Evaluation <span class="skill-chip"></span> Competitive Benchmarking <span class="skill-chip"></span> Streamlit Deployment</p>
+  <span class="skill-chip">CRISP-DM</span>
+  <span class="skill-chip">ETL / Data Preparation</span>
+  <span class="skill-chip">Exploratory Data Analysis</span>
+  <span class="skill-chip">Feature Engineering</span>
+  <span class="skill-chip">Time-Series Forecasting</span>
+  <span class="skill-chip">Prophet</span>
+  <span class="skill-chip">NLP / Text Mining</span>
+  <span class="skill-chip">YAKE</span>
+  <span class="skill-chip">Sentence-BERT</span>
+  <span class="skill-chip">Model Evaluation</span>
+  <span class="skill-chip">Competitive Benchmarking</span>
+  <span class="skill-chip">Streamlit Deployment</span>
 </div>
 <div class="badge-row">
 <div class="hero-badge">
@@ -135,6 +146,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="hero-badge">
 <p><strong>Recognized delivery</strong> <span>Awarded the maximum grade and 2nd place in a pitch contest.</span></p>
+</div>
+<div class="hero-badge">
+<p><strong>Practical output</strong> <span>Delivered as a Streamlit application designed to support day-to-day business decisions.</span></p>
 </div>
 </div>
 <div class="cta-row">
@@ -154,6 +168,12 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="data-and-methodology">Data and Methodology</h3>
 <p>The project follows a CRISP-DM workflow and combines structured and unstructured sources into one analytical pipeline. Inputs include nearly 990k real sales records from January 2019 to December 2025, more than 2,500 customer reviews, roughly 6,000 competitor reviews, and external variables such as weather, holidays, and CaixaForum visitor flow.</p>
 <p>This creates a single decision-support framework that links operational performance, customer sentiment, and contextual demand factors in a way that is technically rigorous but still readable for business stakeholders.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/project-details/figure-1-time-series.png" class="detail-visual img-fluid figure-img"></p>
+<figcaption>Figure 1. Daily total revenue and 7-day moving average, with a EUR 1,000 reference line (2019-2025).</figcaption>
+</figure>
+</div>
 <div class="detail-caption">
 <p>Figure 1. Daily total revenue and 7-day moving average, with a EUR 1,000 reference line (2019-2025).</p>
 </div>
@@ -162,6 +182,12 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="modeling">Modeling</h3>
 <p>For forecasting, Prophet was selected after comparison with Linear Regression and XGBoost, offering the best balance between accuracy, robustness, and interpretability. For text mining, the pipeline combines YAKE, NLTK, and Sentence-BERT to automatically extract, normalize, and group customer feedback themes from reviews.</p>
 <p>This keeps the modeling strategy grounded: alternative approaches are benchmarked seriously, but the final system favors methods that can be explained, monitored, and used in a real operating setting.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/project-details/table-1.png" class="detail-visual img-fluid figure-img"></p>
+<figcaption>Table 1. Prophet vs.&nbsp;Linear Regression vs.&nbsp;XGBoost on the full 2025 test set.</figcaption>
+</figure>
+</div>
 <div class="detail-caption">
 <p>Table 1. Prophet vs.&nbsp;Linear Regression vs.&nbsp;XGBoost on the full 2025 test set.</p>
 </div>
@@ -170,6 +196,18 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="results-and-impact">Results and Impact</h3>
 <p>The forecasting models achieved strong results, with total revenue prediction reaching about 11.74% MAPE in validation and 14.25% in production monitoring for January 2026. Review analysis identified food, coffee, and service as clear strengths, while price emerged as the main improvement area.</p>
 <p>Both components were deployed in a Streamlit app, turning the project into a practical business tool rather than a static analytical report.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/project-details/table-3.png" class="detail-visual img-fluid figure-img"></p>
+<figcaption>Table 3. Production evaluation metrics for Prophet models, January 2026.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/project-details/figure-8-text-mining-streamlit.png" class="detail-visual img-fluid figure-img"></p>
+<figcaption>Figure 8. Screenshot of the Pythia app review analysis module.</figcaption>
+</figure>
+</div>
 <div class="detail-caption">
 <p>Table 3. Production evaluation metrics for Prophet models, January 2026.</p>
 <p>Figure 8. Screenshot of the Pythia app review analysis module.</p>
@@ -191,22 +229,22 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="team">Team</h3>
 <div class="team-list">
 <div class="team-item">
-<span>Anabel Baez Rodriguez</span><a class="icon-link" href="https://www.linkedin.com/in/anabel-baez-996348a4/" aria-label="Anabel Baez Rodriguez on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a>
+<span>Anabel Baez Rodriguez</span><a class="linkedin-button" href="https://www.linkedin.com/in/anabel-baez-996348a4/" aria-label="Anabel Baez Rodriguez on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt="">LinkedIn</a>
 </div>
 <div class="team-item">
-<span>Fatima Tawfik Vazquez</span><a class="icon-link" href="https://www.linkedin.com/in/fatimatawfikvazquez/" aria-label="Fatima Tawfik Vazquez on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a>
+<span>Fatima Tawfik Vazquez</span><a class="linkedin-button" href="https://www.linkedin.com/in/fatimatawfikvazquez/" aria-label="Fatima Tawfik Vazquez on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt="">LinkedIn</a>
 </div>
 <div class="team-item">
-<span>Genesis Hernandez Gallegos</span><a class="icon-link" href="https://www.linkedin.com/in/genesishernandezg/" aria-label="Genesis Hernandez Gallegos on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a>
+<span>Genesis Hernandez Gallegos</span><a class="linkedin-button" href="https://www.linkedin.com/in/genesishernandezg/" aria-label="Genesis Hernandez Gallegos on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt="">LinkedIn</a>
 </div>
 <div class="team-item">
-<span>Ilan Arvelo Yagua</span><a class="icon-link" href="https://www.linkedin.com/in/ilan-arvelo-yagua/" aria-label="Ilan Arvelo Yagua on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a>
+<span>Ilan Arvelo Yagua</span><a class="linkedin-button" href="https://www.linkedin.com/in/ilan-arvelo-yagua/" aria-label="Ilan Arvelo Yagua on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt="">LinkedIn</a>
 </div>
 <div class="team-item">
-<span>Luca Iacomino</span><a class="icon-link" href="https://www.linkedin.com/in/luca-iacomino-58440b180/" aria-label="Luca Iacomino on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a>
+<span>Luca Iacomino</span><a class="linkedin-button" href="https://www.linkedin.com/in/luca-iacomino-58440b180/" aria-label="Luca Iacomino on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt="">LinkedIn</a>
 </div>
 <div class="team-item">
-<span>Yassuhiro Marcio</span><a class="icon-link" href="https://www.linkedin.com/in/yassuhiro-m/" aria-label="Yassuhiro Marcio on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a>
+<span>Marcio Yassuhiro</span><a class="linkedin-button" href="https://www.linkedin.com/in/yassuhiro-m/" aria-label="Marcio Yassuhiro on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt="">LinkedIn</a>
 </div>
 </div>
 </section>
