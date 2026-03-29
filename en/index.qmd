@@ -3,6 +3,18 @@ title: "Home"
 page-layout: full
 ---
 
+::: {.page-nav}
+<a class="page-nav-brand" href="#top">Pythia</a>
+<div class="page-nav-links">
+  <a href="#project-details">Project details</a>
+  <a href="#video-demo">Video demo</a>
+  <a href="#team">Team</a>
+  <a href="#awards">Awards</a>
+  <a href="./">EN</a>
+  <a href="../es/">ES</a>
+</div>
+:::
+
 ::: {#top .hero-shell}
 []{.eyebrow} Technical case study with product polish
 
@@ -46,40 +58,13 @@ Pythia is designed to be readable in one sitting: start with the business challe
 ::: {.content-card .detail-card .simple-card}
 ### Business Problem
 
-Pythia starts from a real decision-making challenge: how to convert available data into reliable guidance that supports faster, better-informed action in a cafeteria context.
-
-**Why this matters**
-
-Organizations often have operational data but lack a trustworthy way to translate it into practical day-to-day decisions.
-
-**The gap**
-
-Raw information alone does not create value. What is needed is a structured analytical workflow that turns data into usable insight.
-
-**Pythia's contribution**
-
-Pythia combines business framing, technical rigor, and clear presentation so the outputs connect naturally with real-world action.
+Specialty cafes operate with tight margins, perishable products, and highly variable demand. This project addresses that challenge by combining sales forecasting and customer review analysis to support better decisions on purchasing, staffing, and business improvement priorities.
 :::
 
 ::: {.content-card .detail-card}
 ### Data and Methodology
 
-The methodology is designed to be technically sound and easy to audit. Each phase contributes to trust: data provenance, preprocessing decisions, evaluation design, and transparent interpretation.
-
-**Core components**
-
-- Data sources and scope
-- Cleaning and transformation
-- Feature engineering
-- Evaluation setup
-- Interpretation and limitations
-
-**What this section should show**
-
-- data pipeline and dataset scope
-- acquisition, quality checks, and preprocessing
-- train-validation-test strategy
-- reproducibility choices and repository structure
+The project combines structured and unstructured data, including daily sales records, weather data, holiday calendars, CaixaForum visitor flows, and Google reviews. Using a CRISP-DM approach, it integrates time-series forecasting and text mining into a single decision-support system for the cafe.
 
 ::: {.media-slot}
 Space for data pipeline graphic, EDA snapshot, or methodology table
@@ -89,14 +74,7 @@ Space for data pipeline graphic, EDA snapshot, or methodology table
 ::: {.content-card .detail-card}
 ### Modeling
 
-The modeling section should communicate technical judgment and restraint: why the chosen approaches fit the problem, what alternatives were considered, and how performance was balanced with interpretability and robustness.
-
-**Review focus**
-
-- baselines before complex models
-- rationale for model selection
-- tuning without overfitting
-- explainability and business usefulness
+For forecasting, Prophet was selected after comparison with Linear Regression and XGBoost, offering the best balance between accuracy, robustness, and interpretability. For text mining, the pipeline combines YAKE, NLTK, and Sentence-BERT to automatically extract, normalize, and group customer feedback themes from reviews.
 
 ::: {.media-slot}
 Space for model comparison chart, feature importance graphic, or architecture diagram
@@ -106,14 +84,7 @@ Space for model comparison chart, feature importance graphic, or architecture di
 ::: {.content-card .detail-card}
 ### Results and Impact
 
-Results should show more than model metrics. Pythia is strongest when the performance story is connected to user value, decision quality, and operational improvement.
-
-**Evidence to include**
-
-- final metrics table
-- comparison with baselines
-- practical impact on decisions
-- communication impact and recognition
+The forecasting models achieved strong results, with revenue prediction reaching about 11.74% MAPE in validation and 14.25% in production monitoring. The review analysis identified key strengths such as food, coffee, and service, while highlighting price as the main improvement area. Both components were deployed in a Streamlit app, turning the project into a practical tool for real business decision-making.
 
 ::: {.media-slot}
 Space for results table, performance chart, or impact dashboard
@@ -133,17 +104,14 @@ Pythia was shaped by a collaborative team with a shared focus on technical quali
 
 ::: {.team-grid}
 ::: {.team-card}
-![Team member 1](../assets/images/team/team-member-1.svg){.team-photo}
 ### Team Member One
 Data science, experimentation, and analytical framing.
 :::
 ::: {.team-card}
-![Team member 2](../assets/images/team/team-member-2.svg){.team-photo}
 ### Team Member Two
 Modeling, technical validation, and implementation.
 :::
 ::: {.team-card}
-![Team member 3](../assets/images/team/team-member-3.svg){.team-photo}
 ### Team Member Three
 Product narrative, presentation, and stakeholder communication.
 :::
@@ -162,10 +130,6 @@ Pythia received the highest academic evaluation for the final project.
 ### 2nd place in pitch contest
 The project also stood out in a presentation setting, validating its clarity, storytelling, and practical positioning.
 :::
-::: {.award-card}
-### Recruiter-ready presentation
-The combination of product polish and technical depth makes the project especially effective for hiring conversations.
-:::
 :::
 
 ## Contact {#contact .section-title}
@@ -178,7 +142,7 @@ For opportunities, technical discussion, or a walkthrough of the project, reach 
 [linkedin.com/in/your-linkedin](https://www.linkedin.com/in/your-linkedin/)
 :::
 ::: {.contact-card}
-### GitHub
+### GitHub Repo
 [github.com/your-username/pythia](https://github.com/your-username/pythia)
 :::
 ::: {.contact-card}

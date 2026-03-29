@@ -27,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
@@ -44,11 +43,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-7335c076eab0adcd114b85f5ff4e2227.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -76,66 +75,11 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../assets/css/theme.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/images/pythia-mark.svg" alt="" class="navbar-logo light-content">
-    <img src="../assets/images/pythia-mark.svg" alt="" class="navbar-logo dark-content">
-    </a>
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Pythia</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../#top"> 
-<span class="menu-text">Pythia</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../#project-details"> 
-<span class="menu-text">Project details</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../#video-demo"> 
-<span class="menu-text">Video demo</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../#team"> 
-<span class="menu-text">Team</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../#awards"> 
-<span class="menu-text">Awards</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../2026_pythia_github_pages/en/"> 
-<span class="menu-text">EN</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../2026_pythia_github_pages/es/"> 
-<span class="menu-text">ES</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
@@ -161,6 +105,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="page-nav">
+<a class="page-nav-brand" href="#top">Pythia</a>
+<div class="page-nav-links">
+<p><a href="#project-details">Project details</a> <a href="#video-demo">Video demo</a> <a href="#team">Team</a> <a href="#awards">Awards</a> <a href="./">EN</a> <a href="../es/">ES</a></p>
+</div>
+</div>
 <div id="top" class="hero-shell">
 <p><span class="eyebrow"></span> Technical case study with product polish</p>
 <section id="pythia" class="level1 hero-title">
@@ -194,60 +144,25 @@ ul.task-list li input[type="checkbox"] {
 <div class="detail-grid">
 <section id="business-problem" class="level3 content-card detail-card simple-card">
 <h3 class="anchored" data-anchor-id="business-problem">Business Problem</h3>
-<p>Pythia starts from a real decision-making challenge: how to convert available data into reliable guidance that supports faster, better-informed action in a cafeteria context.</p>
-<p><strong>Why this matters</strong></p>
-<p>Organizations often have operational data but lack a trustworthy way to translate it into practical day-to-day decisions.</p>
-<p><strong>The gap</strong></p>
-<p>Raw information alone does not create value. What is needed is a structured analytical workflow that turns data into usable insight.</p>
-<p><strong>Pythia’s contribution</strong></p>
-<p>Pythia combines business framing, technical rigor, and clear presentation so the outputs connect naturally with real-world action.</p>
+<p>Specialty cafes operate with tight margins, perishable products, and highly variable demand. This project addresses that challenge by combining sales forecasting and customer review analysis to support better decisions on purchasing, staffing, and business improvement priorities.</p>
 </section>
 <section id="data-and-methodology" class="level3 content-card detail-card">
 <h3 class="anchored" data-anchor-id="data-and-methodology">Data and Methodology</h3>
-<p>The methodology is designed to be technically sound and easy to audit. Each phase contributes to trust: data provenance, preprocessing decisions, evaluation design, and transparent interpretation.</p>
-<p><strong>Core components</strong></p>
-<ul>
-<li>Data sources and scope</li>
-<li>Cleaning and transformation</li>
-<li>Feature engineering</li>
-<li>Evaluation setup</li>
-<li>Interpretation and limitations</li>
-</ul>
-<p><strong>What this section should show</strong></p>
-<ul>
-<li>data pipeline and dataset scope</li>
-<li>acquisition, quality checks, and preprocessing</li>
-<li>train-validation-test strategy</li>
-<li>reproducibility choices and repository structure</li>
-</ul>
+<p>The project combines structured and unstructured data, including daily sales records, weather data, holiday calendars, CaixaForum visitor flows, and Google reviews. Using a CRISP-DM approach, it integrates time-series forecasting and text mining into a single decision-support system for the cafe.</p>
 <div class="media-slot">
 <p>Space for data pipeline graphic, EDA snapshot, or methodology table</p>
 </div>
 </section>
 <section id="modeling" class="level3 content-card detail-card">
 <h3 class="anchored" data-anchor-id="modeling">Modeling</h3>
-<p>The modeling section should communicate technical judgment and restraint: why the chosen approaches fit the problem, what alternatives were considered, and how performance was balanced with interpretability and robustness.</p>
-<p><strong>Review focus</strong></p>
-<ul>
-<li>baselines before complex models</li>
-<li>rationale for model selection</li>
-<li>tuning without overfitting</li>
-<li>explainability and business usefulness</li>
-</ul>
+<p>For forecasting, Prophet was selected after comparison with Linear Regression and XGBoost, offering the best balance between accuracy, robustness, and interpretability. For text mining, the pipeline combines YAKE, NLTK, and Sentence-BERT to automatically extract, normalize, and group customer feedback themes from reviews.</p>
 <div class="media-slot">
 <p>Space for model comparison chart, feature importance graphic, or architecture diagram</p>
 </div>
 </section>
 <section id="results-and-impact" class="level3 content-card detail-card">
 <h3 class="anchored" data-anchor-id="results-and-impact">Results and Impact</h3>
-<p>Results should show more than model metrics. Pythia is strongest when the performance story is connected to user value, decision quality, and operational improvement.</p>
-<p><strong>Evidence to include</strong></p>
-<ul>
-<li>final metrics table</li>
-<li>comparison with baselines</li>
-<li>practical impact on decisions</li>
-<li>communication impact and recognition</li>
-</ul>
+<p>The forecasting models achieved strong results, with revenue prediction reaching about 11.74% MAPE in validation and 14.25% in production monitoring. The review analysis identified key strengths such as food, coffee, and service, while highlighting price as the main improvement area. Both components were deployed in a Streamlit app, turning the project into a practical tool for real business decision-making.</p>
 <div class="media-slot">
 <p>Space for results table, performance chart, or impact dashboard</p>
 </div>
@@ -265,15 +180,18 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="section-title anchored" data-anchor-id="team">Team</h2>
 <p>Pythia was shaped by a collaborative team with a shared focus on technical quality, product thinking, and clear communication.</p>
 <div class="team-grid">
-<div class="team-card">
-<p><img src="../assets/images/team/team-member-1.svg" class="team-photo img-fluid" alt="Team member 1"> ### Team Member One Data science, experimentation, and analytical framing.</p>
-</div>
-<div class="team-card">
-<p><img src="../assets/images/team/team-member-2.svg" class="team-photo img-fluid" alt="Team member 2"> ### Team Member Two Modeling, technical validation, and implementation.</p>
-</div>
-<div class="team-card">
-<p><img src="../assets/images/team/team-member-3.svg" class="team-photo img-fluid" alt="Team member 3"> ### Team Member Three Product narrative, presentation, and stakeholder communication.</p>
-</div>
+<section id="team-member-one" class="level3 team-card">
+<h3 class="anchored" data-anchor-id="team-member-one">Team Member One</h3>
+<p>Data science, experimentation, and analytical framing.</p>
+</section>
+<section id="team-member-two" class="level3 team-card">
+<h3 class="anchored" data-anchor-id="team-member-two">Team Member Two</h3>
+<p>Modeling, technical validation, and implementation.</p>
+</section>
+<section id="team-member-three" class="level3 team-card">
+<h3 class="anchored" data-anchor-id="team-member-three">Team Member Three</h3>
+<p>Product narrative, presentation, and stakeholder communication.</p>
+</section>
 </div>
 </section>
 <section id="awards" class="level2 section-title">
@@ -288,10 +206,6 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="nd-place-in-pitch-contest">2nd place in pitch contest</h3>
 <p>The project also stood out in a presentation setting, validating its clarity, storytelling, and practical positioning.</p>
 </section>
-<section id="recruiter-ready-presentation" class="level3 award-card">
-<h3 class="anchored" data-anchor-id="recruiter-ready-presentation">Recruiter-ready presentation</h3>
-<p>The combination of product polish and technical depth makes the project especially effective for hiring conversations.</p>
-</section>
 </div>
 </section>
 <section id="contact" class="level2 section-title">
@@ -302,8 +216,8 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="linkedin">LinkedIn</h3>
 <p><a href="https://www.linkedin.com/in/your-linkedin/">linkedin.com/in/your-linkedin</a></p>
 </section>
-<section id="github" class="level3 contact-card">
-<h3 class="anchored" data-anchor-id="github">GitHub</h3>
+<section id="github-repo" class="level3 contact-card">
+<h3 class="anchored" data-anchor-id="github-repo">GitHub Repo</h3>
 <p><a href="https://github.com/your-username/pythia">github.com/your-username/pythia</a></p>
 </section>
 <section id="email" class="level3 contact-card">

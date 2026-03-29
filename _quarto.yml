@@ -8,24 +8,6 @@ project:
 
 website:
   title: "Pythia"
-  navbar:
-    logo: assets/images/pythia-mark.svg
-    left:
-      - text: "Pythia"
-        href: "#top"
-      - text: "Project details"
-        href: "#project-details"
-      - text: "Video demo"
-        href: "#video-demo"
-      - text: "Team"
-        href: "#team"
-      - text: "Awards"
-        href: "#awards"
-    right:
-      - text: "EN"
-        href: "/2026_pythia_github_pages/en/"
-      - text: "ES"
-        href: "/2026_pythia_github_pages/es/"
   page-footer:
     left: "Pythia · Master’s Final Project at UCM"
     right: "Built with Quarto for GitHub Pages"
