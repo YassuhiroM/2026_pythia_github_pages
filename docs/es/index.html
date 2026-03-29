@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Inicio – Pythia</title>
+<title>Pythia</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -88,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Inicio</h1>
+<h1 class="title">Pythia</h1>
 </div>
 
 
@@ -105,12 +105,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="page-nav">
-<a class="page-nav-brand" href="#top">Pythia</a>
-<div class="page-nav-links">
-<p><a href="#project-details">Detalles del proyecto</a> <a href="#video-demo">Demo en video</a> <a href="#team">Equipo</a> <a href="#awards">Premios</a> <a href="../en/">EN</a> <a href="./">ES</a></p>
-</div>
-</div>
+<nav class="page-nav">
+  <a class="page-nav-brand" href="#top">Pythia</a>
+  <div class="page-nav-links">
+    <a href="#project-details">Detalles del proyecto</a>
+    <a href="#video-demo">Demo en video</a>
+    <a href="#team">Equipo</a>
+    <a href="#awards">Premios</a>
+  </div>
+  <div class="page-nav-lang">
+    <a href="../en/">EN</a>
+    <a href="./">ES</a>
+  </div>
+</nav>
 <div id="top" class="hero-shell">
 <p><span class="eyebrow"></span> Caso técnico con acabado de producto</p>
 <section id="pythia" class="level1 hero-title">
@@ -134,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="cta-row">
-<p><a href="https://youtu.be/gkD9bKw1ikY" class="cta-button cta-tertiary">Ver demo</a></p>
+<p><a href="#video-demo" class="cta-button cta-tertiary">Ver demo</a></p>
 </div>
 </section>
 </div>
@@ -149,23 +156,14 @@ ul.task-list li input[type="checkbox"] {
 <section id="datos-y-metodología" class="level3 content-card detail-card">
 <h3 class="anchored" data-anchor-id="datos-y-metodología">Datos y Metodología</h3>
 <p>El proyecto combina datos estructurados y no estructurados, incluidos registros diarios de ventas, datos meteorológicos, calendarios de festivos, flujos de visitantes de CaixaForum y reseñas de Google. Siguiendo un enfoque CRISP-DM, integra predicción de series temporales y minería de texto en un único sistema de apoyo a la decisión para la cafetería.</p>
-<div class="media-slot">
-<p>Espacio para gráfico del pipeline de datos, captura de EDA o tabla metodológica</p>
-</div>
 </section>
 <section id="modelado" class="level3 content-card detail-card">
 <h3 class="anchored" data-anchor-id="modelado">Modelado</h3>
 <p>Para la predicción, se seleccionó Prophet tras compararlo con Regresión Lineal y XGBoost, al ofrecer el mejor equilibrio entre precisión, robustez e interpretabilidad. Para la minería de texto, el pipeline combina YAKE, NLTK y Sentence-BERT para extraer, normalizar y agrupar automáticamente los temas de feedback de clientes a partir de las reseñas.</p>
-<div class="media-slot">
-<p>Espacio para comparativa de modelos, gráfico de importancia de variables o diagrama de arquitectura</p>
-</div>
 </section>
 <section id="resultados-e-impacto" class="level3 content-card detail-card">
 <h3 class="anchored" data-anchor-id="resultados-e-impacto">Resultados e Impacto</h3>
 <p>Los modelos de predicción lograron resultados sólidos, con una predicción de ingresos de alrededor de 11,74% de MAPE en validación y 14,25% en monitorización en producción. El análisis de reseñas identificó fortalezas clave como la comida, el café y el servicio, y señaló el precio como la principal área de mejora. Ambos componentes se desplegaron en una aplicación Streamlit, convirtiendo el proyecto en una herramienta práctica para la toma de decisiones reales de negocio.</p>
-<div class="media-slot">
-<p>Espacio para tabla de resultados, gráfico de rendimiento o panel de impacto</p>
-</div>
 </section>
 </div>
 </section>
@@ -180,18 +178,42 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="section-title anchored" data-anchor-id="team">Equipo</h2>
 <p>Pythia fue construido por un equipo con foco compartido en calidad técnica, pensamiento de producto y comunicación clara.</p>
 <div class="team-grid">
-<section id="integrante-uno" class="level3 team-card">
-<h3 class="anchored" data-anchor-id="integrante-uno">Integrante Uno</h3>
-<p>Ciencia de datos, experimentación y enfoque analítico.</p>
+<div class="team-card">
+<p><a href="https://www.linkedin.com/in/anabel-baez-996348a4/" class="team-link">LinkedIn</a></p>
+<section id="anabel-baez-rodriguez" class="level3">
+<h3 class="anchored" data-anchor-id="anabel-baez-rodriguez">Anabel Baez Rodriguez</h3>
 </section>
-<section id="integrante-dos" class="level3 team-card">
-<h3 class="anchored" data-anchor-id="integrante-dos">Integrante Dos</h3>
-<p>Modelado, validación técnica e implementación.</p>
+</div>
+<div class="team-card">
+<p><a href="https://www.linkedin.com/in/fatimatawfikvazquez/" class="team-link">LinkedIn</a></p>
+<section id="fatima-tawfik-vazquez" class="level3">
+<h3 class="anchored" data-anchor-id="fatima-tawfik-vazquez">Fatima Tawfik Vazquez</h3>
 </section>
-<section id="integrante-tres" class="level3 team-card">
-<h3 class="anchored" data-anchor-id="integrante-tres">Integrante Tres</h3>
-<p>Narrativa de producto, presentación y comunicación con stakeholders.</p>
+</div>
+<div class="team-card">
+<p><a href="https://www.linkedin.com/in/genesishernandezg/" class="team-link">LinkedIn</a></p>
+<section id="genesis-hernandez-gallegos" class="level3">
+<h3 class="anchored" data-anchor-id="genesis-hernandez-gallegos">Genesis Hernandez Gallegos</h3>
 </section>
+</div>
+<div class="team-card">
+<p><a href="https://www.linkedin.com/in/ilan-arvelo-yagua/" class="team-link">LinkedIn</a></p>
+<section id="ilan-arvelo-yagua" class="level3">
+<h3 class="anchored" data-anchor-id="ilan-arvelo-yagua">Ilan Arvelo Yagua</h3>
+</section>
+</div>
+<div class="team-card">
+<p><a href="https://www.linkedin.com/in/luca-iacomino-58440b180/" class="team-link">LinkedIn</a></p>
+<section id="luca-iacomino" class="level3">
+<h3 class="anchored" data-anchor-id="luca-iacomino">Luca Iacomino</h3>
+</section>
+</div>
+<div class="team-card">
+<p><a href="https://www.linkedin.com/in/yassuhiro-m/" class="team-link">LinkedIn</a></p>
+<section id="yassuhiro-marcio" class="level3">
+<h3 class="anchored" data-anchor-id="yassuhiro-marcio">Yassuhiro Marcio</h3>
+</section>
+</div>
 </div>
 </section>
 <section id="awards" class="level2 section-title">
@@ -205,6 +227,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="º-puesto-en-concurso-de-pitch" class="level3 award-card">
 <h3 class="anchored" data-anchor-id="º-puesto-en-concurso-de-pitch">2.º puesto en concurso de pitch</h3>
 <p>El proyecto también destacó en contexto de presentación, validando su claridad, storytelling y posicionamiento práctico.</p>
+<p><a href="https://www.linkedin.com/posts/ganadores-competici%C3%B3n-becas-ds-ntic-master-ugcPost-7434270925170323456-QIfv?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAFKEmJ4BXrPRzmBCAnGrHF7nwaxBzRCsCh0">Ver publicación en LinkedIn</a></p>
 </section>
 </div>
 </section>
@@ -214,15 +237,15 @@ ul.task-list li input[type="checkbox"] {
 <div class="contact-grid">
 <section id="linkedin" class="level3 contact-card">
 <h3 class="anchored" data-anchor-id="linkedin">LinkedIn</h3>
-<p><a href="https://www.linkedin.com/in/your-linkedin/">linkedin.com/in/your-linkedin</a></p>
+<p><a href="https://www.linkedin.com/in/yassuhiro-m/">linkedin.com/in/yassuhiro-m</a></p>
 </section>
-<section id="repositorio-github" class="level3 contact-card">
-<h3 class="anchored" data-anchor-id="repositorio-github">Repositorio GitHub</h3>
-<p><a href="https://github.com/your-username/pythia">github.com/your-username/pythia</a></p>
+<section id="repositorio-del-proyecto-pythia" class="level3 contact-card">
+<h3 class="anchored" data-anchor-id="repositorio-del-proyecto-pythia">Repositorio del proyecto Pythia</h3>
+<p><a href="https://github.com/lucaiaco21/Cafe-Madrid---TFM-Project">github.com/lucaiaco21/Cafe-Madrid—TFM-Project</a></p>
 </section>
-<section id="email" class="level3 contact-card">
-<h3 class="anchored" data-anchor-id="email">Email</h3>
-<p><a href="mailto:your.email@example.com">your.email@example.com</a></p>
+<section id="github" class="level3 contact-card">
+<h3 class="anchored" data-anchor-id="github">GitHub</h3>
+<p><a href="https://github.com/YassuhiroM">github.com/YassuhiroM</a></p>
 </section>
 </div>
 <p>Pythia<br>

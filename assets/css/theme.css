@@ -31,6 +31,10 @@ html {
   scroll-padding-top: 88px;
 }
 
+#title-block-header {
+  display: none;
+}
+
 h1, h2, h3, h4, .navbar-title {
   font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
   letter-spacing: -0.02em;
@@ -73,18 +77,21 @@ h3 {
 }
 
 .page-nav {
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 30;
+  left: 0;
+  right: 0;
+  z-index: 50;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 0.9rem 0;
+  padding: 0.9rem clamp(1rem, 4vw, 2.4rem);
   margin-bottom: 1rem;
-  background: rgba(252, 251, 248, 0.92);
-  backdrop-filter: blur(10px);
+  background: rgba(252, 251, 248, 0.94);
+  backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(27, 31, 35, 0.08);
+  box-shadow: 0 10px 24px rgba(19, 31, 44, 0.06);
 }
 
 .page-nav a {
@@ -103,6 +110,14 @@ h3 {
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 1rem;
+}
+
+.page-nav-lang {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding-left: 1rem;
+  border-left: 1px solid rgba(27, 31, 35, 0.12);
 }
 
 .eyebrow {
@@ -323,14 +338,26 @@ h3 {
   flex-wrap: wrap;
 }
 
-.team-photo {
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  border-radius: 16px;
-  margin-bottom: 1rem;
-  border: 1px solid rgba(27, 31, 35, 0.08);
-  background: #f2efe8;
+.team-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  justify-content: space-between;
+  min-height: 165px;
+}
+
+.team-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-height: 38px;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  background: var(--pythia-accent-soft);
+  color: var(--pythia-accent);
+  text-decoration: none;
+  font: 600 var(--step--1)/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .inline-list {
@@ -356,8 +383,27 @@ h3 {
 }
 
 @media (max-width: 767px) {
+  .page-nav {
+    position: static;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.9rem 1rem;
+  }
+
+  .page-nav-links,
+  .page-nav-lang {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .page-nav-lang {
+    padding-left: 0;
+    border-left: 0;
+  }
+
   .hero-shell {
     padding: 2rem 1.1rem;
+    margin-top: 0;
   }
 
   .badge-row {

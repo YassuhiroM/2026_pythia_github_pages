@@ -1,19 +1,24 @@
 ---
-title: "Home"
+title: "Pythia"
 page-layout: full
+title-block: false
 ---
 
-::: {.page-nav}
-<a class="page-nav-brand" href="#top">Pythia</a>
-<div class="page-nav-links">
-  <a href="#project-details">Project details</a>
-  <a href="#video-demo">Video demo</a>
-  <a href="#team">Team</a>
-  <a href="#awards">Awards</a>
-  <a href="./">EN</a>
-  <a href="../es/">ES</a>
-</div>
-:::
+```{=html}
+<nav class="page-nav">
+  <a class="page-nav-brand" href="#top">Pythia</a>
+  <div class="page-nav-links">
+    <a href="#project-details">Project details</a>
+    <a href="#video-demo">Video demo</a>
+    <a href="#team">Team</a>
+    <a href="#awards">Awards</a>
+  </div>
+  <div class="page-nav-lang">
+    <a href="./">EN</a>
+    <a href="../es/">ES</a>
+  </div>
+</nav>
+```
 
 ::: {#top .hero-shell}
 []{.eyebrow} Technical case study with product polish
@@ -46,7 +51,7 @@ Final project for the Master in Data Science at UCM/NTIC.
 :::
 
 ::: {.cta-row}
-[Watch Demo](https://youtu.be/gkD9bKw1ikY){.cta-button .cta-tertiary}
+[Watch Demo](#video-demo){.cta-button .cta-tertiary}
 :::
 :::
 
@@ -66,9 +71,6 @@ Specialty cafes operate with tight margins, perishable products, and highly vari
 
 The project combines structured and unstructured data, including daily sales records, weather data, holiday calendars, CaixaForum visitor flows, and Google reviews. Using a CRISP-DM approach, it integrates time-series forecasting and text mining into a single decision-support system for the cafe.
 
-::: {.media-slot}
-Space for data pipeline graphic, EDA snapshot, or methodology table
-:::
 :::
 
 ::: {.content-card .detail-card}
@@ -76,9 +78,6 @@ Space for data pipeline graphic, EDA snapshot, or methodology table
 
 For forecasting, Prophet was selected after comparison with Linear Regression and XGBoost, offering the best balance between accuracy, robustness, and interpretability. For text mining, the pipeline combines YAKE, NLTK, and Sentence-BERT to automatically extract, normalize, and group customer feedback themes from reviews.
 
-::: {.media-slot}
-Space for model comparison chart, feature importance graphic, or architecture diagram
-:::
 :::
 
 ::: {.content-card .detail-card}
@@ -86,9 +85,6 @@ Space for model comparison chart, feature importance graphic, or architecture di
 
 The forecasting models achieved strong results, with revenue prediction reaching about 11.74% MAPE in validation and 14.25% in production monitoring. The review analysis identified key strengths such as food, coffee, and service, while highlighting price as the main improvement area. Both components were deployed in a Streamlit app, turning the project into a practical tool for real business decision-making.
 
-::: {.media-slot}
-Space for results table, performance chart, or impact dashboard
-:::
 :::
 :::
 
@@ -104,16 +100,34 @@ Pythia was shaped by a collaborative team with a shared focus on technical quali
 
 ::: {.team-grid}
 ::: {.team-card}
-### Team Member One
-Data science, experimentation, and analytical framing.
+[LinkedIn](https://www.linkedin.com/in/anabel-baez-996348a4/){.team-link}
+
+### Anabel Baez Rodriguez
 :::
 ::: {.team-card}
-### Team Member Two
-Modeling, technical validation, and implementation.
+[LinkedIn](https://www.linkedin.com/in/fatimatawfikvazquez/){.team-link}
+
+### Fatima Tawfik Vazquez
 :::
 ::: {.team-card}
-### Team Member Three
-Product narrative, presentation, and stakeholder communication.
+[LinkedIn](https://www.linkedin.com/in/genesishernandezg/){.team-link}
+
+### Genesis Hernandez Gallegos
+:::
+::: {.team-card}
+[LinkedIn](https://www.linkedin.com/in/ilan-arvelo-yagua/){.team-link}
+
+### Ilan Arvelo Yagua
+:::
+::: {.team-card}
+[LinkedIn](https://www.linkedin.com/in/luca-iacomino-58440b180/){.team-link}
+
+### Luca Iacomino
+:::
+::: {.team-card}
+[LinkedIn](https://www.linkedin.com/in/yassuhiro-m/){.team-link}
+
+### Yassuhiro Marcio
 :::
 :::
 
@@ -129,6 +143,8 @@ Pythia received the highest academic evaluation for the final project.
 ::: {.award-card}
 ### 2nd place in pitch contest
 The project also stood out in a presentation setting, validating its clarity, storytelling, and practical positioning.
+
+[View LinkedIn post](https://www.linkedin.com/posts/ganadores-competici%C3%B3n-becas-ds-ntic-master-ugcPost-7434270925170323456-QIfv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFKEmJ4BXrPRzmBCAnGrHF7nwaxBzRCsCh0)
 :::
 :::
 
@@ -139,15 +155,15 @@ For opportunities, technical discussion, or a walkthrough of the project, reach 
 ::: {.contact-grid}
 ::: {.contact-card}
 ### LinkedIn
-[linkedin.com/in/your-linkedin](https://www.linkedin.com/in/your-linkedin/)
+[linkedin.com/in/yassuhiro-m](https://www.linkedin.com/in/yassuhiro-m/)
 :::
 ::: {.contact-card}
-### GitHub Repo
-[github.com/your-username/pythia](https://github.com/your-username/pythia)
+### Pythia Project Repo
+[github.com/lucaiaco21/Cafe-Madrid---TFM-Project](https://github.com/lucaiaco21/Cafe-Madrid---TFM-Project)
 :::
 ::: {.contact-card}
-### Email
-[your.email@example.com](mailto:your.email@example.com)
+### GitHub
+[github.com/YassuhiroM](https://github.com/YassuhiroM)
 :::
 :::
 
