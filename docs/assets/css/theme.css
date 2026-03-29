@@ -72,7 +72,7 @@ h3 {
 
 .hero-shell {
   padding: 3.5rem clamp(1.2rem, 3vw, 3rem);
-  margin: 1.5rem 0 2rem;
+  margin: 5.2rem 0 2rem;
   max-width: 100%;
 }
 
@@ -141,6 +141,24 @@ h3 {
   font-size: var(--step-1);
   line-height: 1.5;
   margin-bottom: 1.4rem;
+}
+
+.hero-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-bottom: 1.5rem;
+}
+
+.skill-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(11, 92, 128, 0.12);
+  background: rgba(255, 255, 255, 0.86);
+  color: var(--pythia-accent);
+  font: 600 var(--step--1)/1.1 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .badge-row,
@@ -278,28 +296,21 @@ h3 {
   justify-content: flex-start;
 }
 
-.media-slot {
-  margin-top: auto;
-  min-height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.9rem;
-  border: 1px dashed rgba(11, 92, 128, 0.28);
-  border-radius: 16px;
-  background: linear-gradient(180deg, rgba(229, 240, 245, 0.6), rgba(255, 255, 255, 0.9));
-  color: var(--pythia-muted);
-  text-align: center;
-  font-size: var(--step--1);
-}
-
 #top,
 #project-details,
 #video-demo,
 #team,
 #awards,
+#team-awards,
 #contact {
   scroll-margin-top: 90px;
+}
+
+.detail-caption {
+  padding-top: 0.35rem;
+  color: var(--pythia-muted);
+  font-size: var(--step--1);
+  border-top: 1px solid rgba(27, 31, 35, 0.08);
 }
 
 .content-card h3,
@@ -338,26 +349,71 @@ h3 {
   flex-wrap: wrap;
 }
 
-.team-card {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  justify-content: space-between;
-  min-height: 165px;
+.split-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.25fr);
+  gap: 1rem;
+  margin: 1.3rem 0 2rem;
 }
 
-.team-link {
+.team-panel,
+.awards-panel {
+  padding: 1.2rem;
+}
+
+.team-list {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.team-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid rgba(27, 31, 35, 0.08);
+}
+
+.team-item span {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.icon-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: fit-content;
-  min-height: 38px;
-  padding: 0.45rem 0.9rem;
+  width: 32px;
+  height: 32px;
   border-radius: 999px;
-  background: var(--pythia-accent-soft);
-  color: var(--pythia-accent);
-  text-decoration: none;
-  font: 600 var(--step--1)/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: rgba(10, 102, 194, 0.08);
+}
+
+.icon-link img {
+  width: 18px;
+  height: 18px;
+}
+
+.awards-stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.award-photo {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 14px;
+  margin: 0.9rem 0 0.75rem;
+  border: 1px solid rgba(27, 31, 35, 0.08);
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 0.6rem;
 }
 
 .inline-list {
@@ -411,6 +467,10 @@ h3 {
   }
 
   .detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .split-grid {
     grid-template-columns: 1fr;
   }
 
