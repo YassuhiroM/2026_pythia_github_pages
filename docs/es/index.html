@@ -106,12 +106,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <nav class="page-nav">
-  <a class="page-nav-brand" href="#top">Pythia</a>
   <div class="page-nav-links">
     <a href="#project-details">Detalles del proyecto</a>
     <a href="#video-demo">Demo en video</a>
-    <a href="#team">Equipo</a>
-    <a href="#awards">Premios</a>
+    <a href="#team-awards">Equipo y premios</a>
+    <a href="#contact">Contacto</a>
   </div>
   <div class="page-nav-lang">
     <a href="../en/">EN</a>
@@ -119,139 +118,155 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </nav>
 <div id="top" class="hero-shell">
-<p><span class="eyebrow"></span> Caso técnico con acabado de producto</p>
-<section id="pythia" class="level1 hero-title">
-<h1 class="hero-title">Pythia</h1>
+<section id="pythia---ciencia-de-datos-para-cafeterías" class="level1 hero-title">
+<h1 class="hero-title">Pythia - ciencia de datos para cafeterías</h1>
 <div class="hero-subtitle">
-<p>Ciencia de Datos para Cafeterías</p>
-<p>Proyecto final del Máster en Ciencia de Datos en UCM/NTIC.</p>
+<p>Proyecto final del Máster en Ciencia de Datos en UCM/NTIC, que combina predicción de demanda y análisis de reseñas de clientes en una herramienta práctica de apoyo a la decisión para cafeterías de especialidad.</p>
+</div>
+<div class="hero-skills">
+  <span class="skill-chip">CRISP-DM</span>
+  <span class="skill-chip">ETL / Preparación de datos</span>
+  <span class="skill-chip">EDA</span>
+  <span class="skill-chip">Ingeniería de variables</span>
+  <span class="skill-chip">Predicción de series temporales</span>
+  <span class="skill-chip">Prophet</span>
+  <span class="skill-chip">NLP / Minería de texto</span>
+  <span class="skill-chip">YAKE</span>
+  <span class="skill-chip">Sentence-BERT</span>
+  <span class="skill-chip">Evaluación de modelos</span>
+  <span class="skill-chip">Benchmarking competitivo</span>
+  <span class="skill-chip">Despliegue en Streamlit</span>
 </div>
 <div class="badge-row">
 <div class="hero-badge">
-<p><strong>Proyecto real</strong> <span>Utiliza datos reales de ventas y reseñas de clientes de una cafetería de Madrid para construir una aplicación de cafetería práctica e inteligente.</span></p>
+<p><strong>Contexto operativo real</strong> <span>Construido sobre dinámicas reales de ventas, sentimiento del cliente y variables externas de demanda en cafeterías de especialidad.</span></p>
 </div>
 <div class="hero-badge">
-<p><strong>Integra distintos campos de conocimiento</strong> <span>Combina de forma eficaz contenidos de ETL, EDA, Machine Learning, Deep Learning, Series Temporales, NLP y visualización avanzada en una única solución coherente.</span></p>
+<p><strong>Flujo analítico integrado</strong> <span>Conecta predicción, benchmarking y minería de texto en un único sistema coherente de apoyo a la decisión.</span></p>
 </div>
 <div class="hero-badge">
-<p><strong>Construido como producto real</strong> <span>Presentado como un MVP funcional en Streamlit, mostrando el proyecto como un producto utilizable y no solo como una entrega académica.</span></p>
+<p><strong>Entrega reconocida</strong> <span>Obtuvo la calificación máxima y el 2.º puesto en un concurso de pitch.</span></p>
 </div>
 <div class="hero-badge">
-<p><strong>Reconocimientos</strong> <span>Obtuvo la calificación máxima y el 2.º puesto en un concurso de pitch.</span></p>
+<p><strong>Resultado práctico</strong> <span>Se entregó como una aplicación Streamlit pensada para apoyar decisiones de negocio del día a día.</span></p>
 </div>
 </div>
 <div class="cta-row">
-<p><a href="#video-demo" class="cta-button cta-tertiary">Ver demo</a></p>
+<p><a href="#video-demo" class="cta-button cta-tertiary">Ver demo</a> <a href="../assets/docs/project-document.pdf" class="cta-button cta-secondary">Documento del proyecto</a></p>
 </div>
 </section>
 </div>
 <section id="project-details" class="level2 section-title">
 <h2 class="section-title anchored" data-anchor-id="project-details">Detalles del Proyecto</h2>
-<p>Pythia está diseñado para leerse de una sola vez: primero el reto de negocio, después el flujo analítico, luego las decisiones de modelado y, por último, el impacto medible.</p>
+<p>Pythia está diseñado para leerse como una historia práctica: primero el problema operativo, después los datos y la metodología, luego las decisiones de modelado y, por último, el valor medible del resultado desplegado.</p>
 <div class="detail-grid">
 <section id="problema-de-negocio" class="level3 content-card detail-card simple-card">
 <h3 class="anchored" data-anchor-id="problema-de-negocio">Problema de Negocio</h3>
-<p>Las cafeterías de especialidad operan con márgenes ajustados, productos perecederos y una demanda muy variable. Este proyecto aborda ese reto combinando predicción de ventas y análisis de reseñas de clientes para apoyar mejores decisiones en compras, personal y prioridades de mejora del negocio.</p>
+<p>Las cafeterías de especialidad en mercados urbanos de alto tránsito afrontan un modelo operativo difícil: márgenes ajustados, stock perecedero, demanda volátil y fuerte competencia. Pequeños errores de planificación pueden afectar de forma material a la rentabilidad mediante desperdicio, ventas perdidas e ineficiencias de personal. Este proyecto apoya una mejor toma de decisiones combinando predicción de ventas y análisis de reseñas de clientes para guiar compras, planificación de personal y prioridades de mejora operativa.</p>
 </section>
 <section id="datos-y-metodología" class="level3 content-card detail-card">
 <h3 class="anchored" data-anchor-id="datos-y-metodología">Datos y Metodología</h3>
-<p>El proyecto combina datos estructurados y no estructurados, incluidos registros diarios de ventas, datos meteorológicos, calendarios de festivos, flujos de visitantes de CaixaForum y reseñas de Google. Siguiendo un enfoque CRISP-DM, integra predicción de series temporales y minería de texto en un único sistema de apoyo a la decisión para la cafetería.</p>
+<p>El proyecto sigue un enfoque CRISP-DM y combina fuentes estructuradas y no estructuradas en un único pipeline analítico. Las entradas incluyen cerca de 990 mil registros reales de ventas entre enero de 2019 y diciembre de 2025, más de 2.500 reseñas de clientes, alrededor de 6.000 reseñas de competidores y variables externas como meteorología, festivos y flujo de visitantes de CaixaForum.</p>
+<p>Esto crea un marco único de apoyo a la decisión que conecta rendimiento operativo, sentimiento del cliente y factores contextuales de demanda de una forma técnicamente rigurosa pero fácil de interpretar para perfiles de negocio.</p>
+<div class="detail-visual-frame">
+  <img class="detail-visual" src="../assets/images/project-details/figure-1-time-series.png" alt="Ingresos totales diarios y media móvil de 7 días, con línea de referencia en 1.000 EUR (2019-2025).">
+</div>
+<div class="detail-caption">
+<p>Figura 1. Ingresos totales diarios y media móvil de 7 días, con línea de referencia en 1.000 EUR (2019-2025).</p>
+</div>
 </section>
 <section id="modelado" class="level3 content-card detail-card">
 <h3 class="anchored" data-anchor-id="modelado">Modelado</h3>
-<p>Para la predicción, se seleccionó Prophet tras compararlo con Regresión Lineal y XGBoost, al ofrecer el mejor equilibrio entre precisión, robustez e interpretabilidad. Para la minería de texto, el pipeline combina YAKE, NLTK y Sentence-BERT para extraer, normalizar y agrupar automáticamente los temas de feedback de clientes a partir de las reseñas.</p>
+<p>Para la predicción, se seleccionó Prophet tras compararlo con Regresión Lineal y XGBoost, ya que ofrecía el mejor equilibrio entre precisión, robustez e interpretabilidad. Para la minería de texto, el pipeline combina YAKE, NLTK y Sentence-BERT para extraer, normalizar y agrupar automáticamente los temas de feedback de clientes a partir de las reseñas.</p>
+<p>Esto mantiene la estrategia de modelado en un plano práctico: las alternativas se comparan seriamente, pero el sistema final prioriza métodos que puedan explicarse, monitorizarse y utilizarse en un entorno operativo real.</p>
+<div class="detail-visual-frame">
+  <img class="detail-visual" src="../assets/images/project-details/table-1.png" alt="Prophet frente a Regresión Lineal y XGBoost en el conjunto completo de prueba de 2025.">
+</div>
+<div class="detail-caption">
+<p>Tabla 1. Prophet frente a Regresión Lineal y XGBoost en el conjunto completo de prueba de 2025.</p>
+</div>
 </section>
 <section id="resultados-e-impacto" class="level3 content-card detail-card">
 <h3 class="anchored" data-anchor-id="resultados-e-impacto">Resultados e Impacto</h3>
-<p>Los modelos de predicción lograron resultados sólidos, con una predicción de ingresos de alrededor de 11,74% de MAPE en validación y 14,25% en monitorización en producción. El análisis de reseñas identificó fortalezas clave como la comida, el café y el servicio, y señaló el precio como la principal área de mejora. Ambos componentes se desplegaron en una aplicación Streamlit, convirtiendo el proyecto en una herramienta práctica para la toma de decisiones reales de negocio.</p>
+<p>Los modelos de predicción lograron resultados sólidos, con una predicción de ingresos totales de alrededor de 11,74% de MAPE en validación y 14,25% en monitorización en producción para enero de 2026.</p>
+<p>El análisis de reseñas identificó comida, café y servicio como principales fortalezas del negocio, mientras que el precio apareció como el área de mejora más clara. Ambos componentes se desplegaron en una aplicación Streamlit, convirtiendo el proyecto en una herramienta práctica de negocio y no en un informe analítico estático.</p>
+<div class="detail-visual-frame">
+  <img class="detail-visual" src="../assets/images/project-details/table-3.png" alt="Métricas de evaluación en producción para los modelos Prophet, enero de 2026.">
+</div>
+<div class="detail-caption">
+<p>Tabla 3. Métricas de evaluación en producción para los modelos Prophet, enero de 2026.</p>
+</div>
+<div class="detail-visual-frame">
+  <img class="detail-visual" src="../assets/images/project-details/figure-8-text-mining-streamlit.png" alt="Captura de pantalla del módulo de análisis de reseñas de la app Pythia.">
+</div>
+<div class="detail-caption">
+<p>Figura 8. Captura de pantalla del módulo de análisis de reseñas de la app Pythia.</p>
+</div>
 </section>
 </div>
 </section>
 <section id="video-demo" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="video-demo">Demo en Video</h2>
+<h2 class="section-title anchored" data-anchor-id="video-demo">Demo en video</h2>
 <div class="youtube-frame">
 <iframe src="https://www.youtube.com/embed/gkD9bKw1ikY" title="Video demo de Pythia" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
 </iframe>
 </div>
 </section>
-<section id="team" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="team">Equipo</h2>
-<p>Pythia fue construido por un equipo con foco compartido en calidad técnica, pensamiento de producto y comunicación clara.</p>
-<div class="team-grid">
-<div class="team-card">
-<p><a href="https://www.linkedin.com/in/anabel-baez-996348a4/" class="team-link">LinkedIn</a></p>
-<section id="anabel-baez-rodriguez" class="level3">
-<h3 class="anchored" data-anchor-id="anabel-baez-rodriguez">Anabel Baez Rodriguez</h3>
-</section>
+<section id="team-awards" class="level2 section-title">
+<h2 class="section-title anchored" data-anchor-id="team-awards">Equipo y Premios</h2>
+<div class="split-grid">
+<section id="equipo" class="level3 content-card team-panel">
+<h3 class="anchored" data-anchor-id="equipo">Equipo</h3>
+<div class="team-list">
+<div class="team-item">
+<span>Anabel Baez Rodriguez</span><a class="icon-link" href="https://www.linkedin.com/in/anabel-baez-996348a4/" aria-label="Anabel Baez Rodriguez en LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a>
 </div>
-<div class="team-card">
-<p><a href="https://www.linkedin.com/in/fatimatawfikvazquez/" class="team-link">LinkedIn</a></p>
-<section id="fatima-tawfik-vazquez" class="level3">
-<h3 class="anchored" data-anchor-id="fatima-tawfik-vazquez">Fatima Tawfik Vazquez</h3>
-</section>
+<div class="team-item">
+<span>Fatima Tawfik Vazquez</span><a class="icon-link" href="https://www.linkedin.com/in/fatimatawfikvazquez/" aria-label="Fatima Tawfik Vazquez en LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a>
 </div>
-<div class="team-card">
-<p><a href="https://www.linkedin.com/in/genesishernandezg/" class="team-link">LinkedIn</a></p>
-<section id="genesis-hernandez-gallegos" class="level3">
-<h3 class="anchored" data-anchor-id="genesis-hernandez-gallegos">Genesis Hernandez Gallegos</h3>
-</section>
+<div class="team-item">
+<span>Genesis Hernandez Gallegos</span><a class="icon-link" href="https://www.linkedin.com/in/genesishernandezg/" aria-label="Genesis Hernandez Gallegos en LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a>
 </div>
-<div class="team-card">
-<p><a href="https://www.linkedin.com/in/ilan-arvelo-yagua/" class="team-link">LinkedIn</a></p>
-<section id="ilan-arvelo-yagua" class="level3">
-<h3 class="anchored" data-anchor-id="ilan-arvelo-yagua">Ilan Arvelo Yagua</h3>
-</section>
+<div class="team-item">
+<span>Ilan Arvelo Yagua</span><a class="icon-link" href="https://www.linkedin.com/in/ilan-arvelo-yagua/" aria-label="Ilan Arvelo Yagua en LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a>
 </div>
-<div class="team-card">
-<p><a href="https://www.linkedin.com/in/luca-iacomino-58440b180/" class="team-link">LinkedIn</a></p>
-<section id="luca-iacomino" class="level3">
-<h3 class="anchored" data-anchor-id="luca-iacomino">Luca Iacomino</h3>
-</section>
+<div class="team-item">
+<span>Luca Iacomino</span><a class="icon-link" href="https://www.linkedin.com/in/luca-iacomino-58440b180/" aria-label="Luca Iacomino en LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a>
 </div>
-<div class="team-card">
-<p><a href="https://www.linkedin.com/in/yassuhiro-m/" class="team-link">LinkedIn</a></p>
-<section id="yassuhiro-marcio" class="level3">
-<h3 class="anchored" data-anchor-id="yassuhiro-marcio">Yassuhiro Marcio</h3>
-</section>
+<div class="team-item">
+<span>Marcio Yassuhiro</span><a class="icon-link" href="https://www.linkedin.com/in/yassuhiro-m/" aria-label="Marcio Yassuhiro en LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a>
 </div>
 </div>
 </section>
-<section id="awards" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="awards">Premios</h2>
-<p>El proyecto unió buen trabajo técnico con buena comunicación, y los resultados lo reflejan.</p>
-<div class="feature-grid">
+<div class="content-card awards-panel">
+<section id="premios" class="level3">
+<h3 class="anchored" data-anchor-id="premios">Premios</h3>
+</section>
+<div class="awards-stack">
 <section id="calificación-máxima" class="level3 award-card">
 <h3 class="anchored" data-anchor-id="calificación-máxima">Calificación máxima</h3>
 <p>Pythia obtuvo la máxima evaluación académica en el Trabajo Fin de Máster.</p>
 </section>
 <section id="º-puesto-en-concurso-de-pitch" class="level3 award-card">
 <h3 class="anchored" data-anchor-id="º-puesto-en-concurso-de-pitch">2.º puesto en concurso de pitch</h3>
-<p>El proyecto también destacó en contexto de presentación, validando su claridad, storytelling y posicionamiento práctico.</p>
+<p>El proyecto también destacó en un contexto de presentación, validando su claridad, storytelling y posicionamiento práctico.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/images/awards/award-ceremony.jpg" class="award-photo img-fluid figure-img"></p>
+<figcaption>Ceremonia de premios</figcaption>
+</figure>
+</div>
 <p><a href="https://www.linkedin.com/posts/ganadores-competici%C3%B3n-becas-ds-ntic-master-ugcPost-7434270925170323456-QIfv?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAFKEmJ4BXrPRzmBCAnGrHF7nwaxBzRCsCh0">Ver publicación en LinkedIn</a></p>
 </section>
+</div>
+</div>
 </div>
 </section>
 <section id="contact" class="level2 section-title">
 <h2 class="section-title anchored" data-anchor-id="contact">Contacto</h2>
-<p>Para oportunidades, conversación técnica o una explicación del proyecto, puedes escribir a través de los siguientes canales.</p>
-<div class="contact-grid">
-<section id="linkedin" class="level3 contact-card">
-<h3 class="anchored" data-anchor-id="linkedin">LinkedIn</h3>
-<p><a href="https://www.linkedin.com/in/yassuhiro-m/">linkedin.com/in/yassuhiro-m</a></p>
-</section>
-<section id="repositorio-del-proyecto-pythia" class="level3 contact-card">
-<h3 class="anchored" data-anchor-id="repositorio-del-proyecto-pythia">Repositorio del proyecto Pythia</h3>
-<p><a href="https://github.com/lucaiaco21/Cafe-Madrid---TFM-Project">github.com/lucaiaco21/Cafe-Madrid—TFM-Project</a></p>
-</section>
-<section id="github" class="level3 contact-card">
-<h3 class="anchored" data-anchor-id="github">GitHub</h3>
-<p><a href="https://github.com/YassuhiroM">github.com/YassuhiroM</a></p>
-</section>
+<div class="contact-actions">
+<p><a href="https://www.linkedin.com/in/yassuhiro-m/" class="cta-button cta-secondary">LinkedIn</a> <a href="https://github.com/lucaiaco21/Cafe-Madrid---TFM-Project" class="cta-button cta-tertiary">Repositorio del proyecto Pythia</a> <a href="https://github.com/YassuhiroM" class="cta-button cta-tertiary">GitHub</a></p>
 </div>
-<p>Pythia<br>
-Trabajo Fin de Máster en la UCM<br>
-Ciencia de Datos<br>
-Disponible para entrevistas técnicas, walkthroughs del proyecto y conversaciones de colaboración</p>
 
 
 </section>

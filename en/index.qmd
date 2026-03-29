@@ -29,7 +29,7 @@ Master’s final project for the Master in Data Science at UCM/NTIC, combining d
 <div class="hero-skills">
   <span class="skill-chip">CRISP-DM</span>
   <span class="skill-chip">ETL / Data Preparation</span>
-  <span class="skill-chip">Exploratory Data Analysis</span>
+  <span class="skill-chip">EDA</span>
   <span class="skill-chip">Feature Engineering</span>
   <span class="skill-chip">Time-Series Forecasting</span>
   <span class="skill-chip">Prophet</span>
@@ -63,6 +63,7 @@ Master’s final project for the Master in Data Science at UCM/NTIC, combining d
 
 ::: {.cta-row}
 [Watch Demo](#video-demo){.cta-button .cta-tertiary}
+[Project Document](../assets/docs/project-document.pdf){.cta-button .cta-secondary}
 :::
 :::
 
@@ -84,7 +85,11 @@ The project follows a CRISP-DM workflow and combines structured and unstructured
 
 This creates a single decision-support framework that links operational performance, customer sentiment, and contextual demand factors in a way that is technically rigorous but still readable for business stakeholders.
 
-![Figure 1. Daily total revenue and 7-day moving average, with a EUR 1,000 reference line (2019-2025).](../assets/images/project-details/figure-1-time-series.png){.detail-visual}
+```{=html}
+<div class="detail-visual-frame">
+  <img class="detail-visual" src="../assets/images/project-details/figure-1-time-series.png" alt="Daily total revenue and 7-day moving average, with a EUR 1,000 reference line (2019-2025).">
+</div>
+```
 
 ::: {.detail-caption}
 Figure 1. Daily total revenue and 7-day moving average, with a EUR 1,000 reference line (2019-2025).
@@ -98,7 +103,11 @@ For forecasting, Prophet was selected after comparison with Linear Regression an
 
 This keeps the modeling strategy grounded: alternative approaches are benchmarked seriously, but the final system favors methods that can be explained, monitored, and used in a real operating setting.
 
-![Table 1. Prophet vs. Linear Regression vs. XGBoost on the full 2025 test set.](../assets/images/project-details/table-1.png){.detail-visual}
+```{=html}
+<div class="detail-visual-frame">
+  <img class="detail-visual" src="../assets/images/project-details/table-1.png" alt="Prophet vs. Linear Regression vs. XGBoost on the full 2025 test set.">
+</div>
+```
 
 ::: {.detail-caption}
 Table 1. Prophet vs. Linear Regression vs. XGBoost on the full 2025 test set.
@@ -108,17 +117,27 @@ Table 1. Prophet vs. Linear Regression vs. XGBoost on the full 2025 test set.
 ::: {.content-card .detail-card}
 ### Results and Impact
 
-The forecasting models achieved strong results, with total revenue prediction reaching about 11.74% MAPE in validation and 14.25% in production monitoring for January 2026. Review analysis identified food, coffee, and service as clear strengths, while price emerged as the main improvement area.
+The forecasting models achieved strong results, with total revenue prediction reaching about 11.74% MAPE in validation and 14.25% in production monitoring for January 2026.
 
-Both components were deployed in a Streamlit app, turning the project into a practical business tool rather than a static analytical report.
+The customer review analysis identified food, coffee, and service as the main strengths of the business, while price emerged as the clearest improvement area. Both components were deployed in a Streamlit app, turning the project into a practical business tool rather than a static analytical report.
 
-![Table 3. Production evaluation metrics for Prophet models, January 2026.](../assets/images/project-details/table-3.png){.detail-visual}
-
-![Figure 8. Screenshot of the Pythia app review analysis module.](../assets/images/project-details/figure-8-text-mining-streamlit.png){.detail-visual}
+```{=html}
+<div class="detail-visual-frame">
+  <img class="detail-visual" src="../assets/images/project-details/table-3.png" alt="Production evaluation metrics for Prophet models, January 2026.">
+</div>
+```
 
 ::: {.detail-caption}
 Table 3. Production evaluation metrics for Prophet models, January 2026.
+:::
 
+```{=html}
+<div class="detail-visual-frame">
+  <img class="detail-visual" src="../assets/images/project-details/figure-8-text-mining-streamlit.png" alt="Screenshot of the Pythia app review analysis module.">
+</div>
+```
+
+::: {.detail-caption}
 Figure 8. Screenshot of the Pythia app review analysis module.
 :::
 :::
@@ -137,12 +156,12 @@ Figure 8. Screenshot of the Pythia app review analysis module.
 ### Team
 
 ::: {.team-list}
-<div class="team-item"><span>Anabel Baez Rodriguez</span><a class="linkedin-button" href="https://www.linkedin.com/in/anabel-baez-996348a4/" aria-label="Anabel Baez Rodriguez on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt="">LinkedIn</a></div>
-<div class="team-item"><span>Fatima Tawfik Vazquez</span><a class="linkedin-button" href="https://www.linkedin.com/in/fatimatawfikvazquez/" aria-label="Fatima Tawfik Vazquez on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt="">LinkedIn</a></div>
-<div class="team-item"><span>Genesis Hernandez Gallegos</span><a class="linkedin-button" href="https://www.linkedin.com/in/genesishernandezg/" aria-label="Genesis Hernandez Gallegos on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt="">LinkedIn</a></div>
-<div class="team-item"><span>Ilan Arvelo Yagua</span><a class="linkedin-button" href="https://www.linkedin.com/in/ilan-arvelo-yagua/" aria-label="Ilan Arvelo Yagua on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt="">LinkedIn</a></div>
-<div class="team-item"><span>Luca Iacomino</span><a class="linkedin-button" href="https://www.linkedin.com/in/luca-iacomino-58440b180/" aria-label="Luca Iacomino on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt="">LinkedIn</a></div>
-<div class="team-item"><span>Marcio Yassuhiro</span><a class="linkedin-button" href="https://www.linkedin.com/in/yassuhiro-m/" aria-label="Marcio Yassuhiro on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt="">LinkedIn</a></div>
+<div class="team-item"><span>Anabel Baez Rodriguez</span><a class="icon-link" href="https://www.linkedin.com/in/anabel-baez-996348a4/" aria-label="Anabel Baez Rodriguez on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a></div>
+<div class="team-item"><span>Fatima Tawfik Vazquez</span><a class="icon-link" href="https://www.linkedin.com/in/fatimatawfikvazquez/" aria-label="Fatima Tawfik Vazquez on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a></div>
+<div class="team-item"><span>Genesis Hernandez Gallegos</span><a class="icon-link" href="https://www.linkedin.com/in/genesishernandezg/" aria-label="Genesis Hernandez Gallegos on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a></div>
+<div class="team-item"><span>Ilan Arvelo Yagua</span><a class="icon-link" href="https://www.linkedin.com/in/ilan-arvelo-yagua/" aria-label="Ilan Arvelo Yagua on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a></div>
+<div class="team-item"><span>Luca Iacomino</span><a class="icon-link" href="https://www.linkedin.com/in/luca-iacomino-58440b180/" aria-label="Luca Iacomino on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a></div>
+<div class="team-item"><span>Marcio Yassuhiro</span><a class="icon-link" href="https://www.linkedin.com/in/yassuhiro-m/" aria-label="Marcio Yassuhiro on LinkedIn"><img src="../assets/images/linkedin-icon.svg" alt=""></a></div>
 :::
 :::
 
