@@ -11,55 +11,21 @@ website:
   navbar:
     logo: assets/images/pythia-mark.svg
     left:
-      - text: "English"
-        menu:
-          - text: "Home"
-            href: en/index.qmd
-          - text: "Product overview"
-            href: en/product-overview.qmd
-          - text: "Business problem"
-            href: en/business-problem.qmd
-          - text: "Data and methodology"
-            href: en/data-methodology.qmd
-          - text: "Modeling"
-            href: en/modeling.qmd
-          - text: "Results and impact"
-            href: en/results-impact.qmd
-          - text: "Video demo"
-            href: en/video-demo.qmd
-          - text: "Team"
-            href: en/team.qmd
-          - text: "Awards"
-            href: en/awards-recognition.qmd
-          - text: "Contact"
-            href: en/contact.qmd
-      - text: "Español"
-        menu:
-          - text: "Inicio"
-            href: es/index.qmd
-          - text: "Visión general"
-            href: es/product-overview.qmd
-          - text: "Problema de negocio"
-            href: es/business-problem.qmd
-          - text: "Datos y metodología"
-            href: es/data-methodology.qmd
-          - text: "Modelado"
-            href: es/modeling.qmd
-          - text: "Resultados e impacto"
-            href: es/results-impact.qmd
-          - text: "Demo en video"
-            href: es/video-demo.qmd
-          - text: "Equipo"
-            href: es/team.qmd
-          - text: "Premios"
-            href: es/awards-recognition.qmd
-          - text: "Contacto"
-            href: es/contact.qmd
+      - text: "Pythia"
+        href: "#top"
+      - text: "Project details"
+        href: "#project-details"
+      - text: "Video demo"
+        href: "#video-demo"
+      - text: "Team"
+        href: "#team"
+      - text: "Awards"
+        href: "#awards"
     right:
-      - text: "GitHub"
-        href: "https://github.com/your-username/pythia"
-      - text: "LinkedIn"
-        href: "https://www.linkedin.com/in/your-linkedin/"
+      - text: "EN"
+        href: "/2026_pythia_github_pages/en/"
+      - text: "ES"
+        href: "/2026_pythia_github_pages/es/"
   page-footer:
     left: "Pythia · Master’s Final Project at UCM"
     right: "Built with Quarto for GitHub Pages"

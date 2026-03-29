@@ -3,12 +3,7 @@ title: "Inicio"
 page-layout: full
 ---
 
-::: {.lang-switcher}
-<a class="lang-link" href="../en/">English</a>
-<a class="lang-link" href="./">Español</a>
-:::
-
-::: {.hero-shell}
+::: {#top .hero-shell}
 []{.eyebrow} Caso técnico con acabado de producto
 
 # Pythia { .hero-title }
@@ -43,83 +38,156 @@ Proyecto final del Máster en Ciencia de Datos en UCM/NTIC.
 :::
 :::
 
-## Por qué Pythia { .section-title }
+## Detalles del Proyecto {#project-details .section-title}
 
-Pythia convierte un reto complejo de ciencia de datos en una historia de producto coherente. El proyecto combina metodología rigurosa, decisiones de modelado explicables y una experiencia pulida de principio a fin para que recruiters, profesores y evaluadores técnicos entiendan tanto el valor de negocio como la calidad técnica en menos de tres minutos.
+Pythia está diseñado para leerse de una sola vez: primero el reto de negocio, después el flujo analítico, luego las decisiones de modelado y, por último, el impacto medible.
 
-::: {.feature-grid}
-::: {.content-card}
-### Visión general del producto
-Desde el concepto hasta la interfaz, Pythia se presenta como un producto utilizable y no solo como un conjunto de notebooks.
+::: {.detail-grid}
+::: {.content-card .detail-card .simple-card}
+### Problema de Negocio
 
-[Explorar la visión general](./product-overview.html)
-:::
-::: {.content-card}
-### Datos y metodología
-El flujo analítico está documentado con claridad, desde las fuentes y el tratamiento de datos hasta el diseño de la evaluación.
+Pythia parte de un reto real de toma de decisiones: cómo convertir los datos disponibles en una guía fiable que permita actuar mejor y más rápido en el contexto de una cafetería.
 
-[Revisar la metodología](./data-methodology.html)
-:::
-::: {.content-card}
-### Resultados e impacto
-El rendimiento se presenta junto con sus implicaciones prácticas, su relevancia de negocio y la calidad de la comunicación.
+**Por qué importa**
 
-[Ver resultados](./results-impact.html)
-:::
+Muchas organizaciones tienen datos operativos, pero no una forma fiable de traducirlos en decisiones prácticas del día a día.
+
+**La brecha**
+
+La información bruta no genera valor por sí sola. Hace falta un flujo analítico estructurado que convierta los datos en insight utilizable.
+
+**Aportación de Pythia**
+
+Pythia combina enfoque de negocio, rigor técnico y presentación clara para que los resultados conecten de forma natural con la acción real.
 :::
 
-## En Tres Minutos { .section-title }
+::: {.content-card .detail-card}
+### Datos y Metodología
 
-::: {.page-grid}
-::: {.info-panel}
-### Qué resuelve
-Pythia aborda un problema de negocio relevante desde una perspectiva de apoyo a la decisión, convirtiendo datos brutos en insight accionable.
-:::
-::: {.info-panel}
-### Cómo funciona
-El sistema combina trabajo sólido con datos estructurados, metodología rigurosa y decisiones de modelado interpretables dentro de una narrativa clara de producto.
-:::
-::: {.info-panel}
-### Por qué destaca
-Obtuvo la calificación máxima y el segundo puesto en un concurso de pitch, lo que demuestra profundidad técnica y gran capacidad de comunicación.
+La metodología está pensada para ser técnicamente sólida y fácil de auditar. Cada fase contribuye a la confianza: procedencia de los datos, decisiones de preprocesado, diseño de evaluación e interpretación transparente.
+
+**Componentes principales**
+
+- fuentes de datos y alcance
+- limpieza y transformación
+- ingeniería de variables
+- configuración de la evaluación
+- interpretación y limitaciones
+
+**Lo que debe mostrar esta sección**
+
+- pipeline de datos y alcance del dataset
+- adquisición, controles de calidad y preprocesado
+- estrategia train-validation-test
+- decisiones de reproducibilidad y estructura del repositorio
+
+::: {.media-slot}
+Espacio para gráfico del pipeline de datos, captura de EDA o tabla metodológica
 :::
 :::
 
-## Demo en Video { .section-title }
+::: {.content-card .detail-card}
+### Modelado
+
+La sección de modelado debe comunicar criterio técnico y contención: por qué los enfoques elegidos encajan con el problema, qué alternativas se consideraron y cómo se equilibró el rendimiento con la interpretabilidad y la robustez.
+
+**Puntos de revisión**
+
+- baselines antes de modelos complejos
+- justificación de la selección del modelo
+- ajuste sin sobreentrenamiento
+- explicabilidad y utilidad de negocio
+
+::: {.media-slot}
+Espacio para comparativa de modelos, gráfico de importancia de variables o diagrama de arquitectura
+:::
+:::
+
+::: {.content-card .detail-card}
+### Resultados e Impacto
+
+Los resultados deben mostrar más que métricas. Pythia gana fuerza cuando la historia del rendimiento se conecta con el valor para el usuario, la calidad de la decisión y la mejora operativa.
+
+**Evidencias que conviene incluir**
+
+- tabla final de métricas
+- comparación con baselines
+- impacto práctico en la toma de decisiones
+- impacto comunicativo y reconocimientos
+
+::: {.media-slot}
+Espacio para tabla de resultados, gráfico de rendimiento o panel de impacto
+:::
+:::
+:::
+
+## Demo en Video {#video-demo .section-title}
 
 ::: {.youtube-frame}
 <iframe src="https://www.youtube.com/embed/gkD9bKw1ikY" title="Video demo de Pythia" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 :::
 
-## Referencias Técnicas de Apoyo { .section-title }
+## Equipo {#team .section-title}
 
-Tus materiales técnicos existentes de GitHub pueden vivir junto al sitio como evidencia de apoyo, sin marcar el diseño de la portada.
+Pythia fue construido por un equipo con foco compartido en calidad técnica, pensamiento de producto y comunicación clara.
 
-::: {.reference-links}
-[Repositorio](https://github.com/your-username/pythia)
-[Memoria técnica](https://github.com/your-username/pythia)
-[Presentación](https://github.com/your-username/pythia)
+::: {.team-grid}
+::: {.team-card}
+![Miembro del equipo 1](../assets/images/team/team-member-1.svg){.team-photo}
+### Integrante Uno
+Ciencia de datos, experimentación y enfoque analítico.
+:::
+::: {.team-card}
+![Miembro del equipo 2](../assets/images/team/team-member-2.svg){.team-photo}
+### Integrante Dos
+Modelado, validación técnica e implementación.
+:::
+::: {.team-card}
+![Miembro del equipo 3](../assets/images/team/team-member-3.svg){.team-photo}
+### Integrante Tres
+Narrativa de producto, presentación y comunicación con stakeholders.
+:::
 :::
 
-## Siguientes Secciones { .section-title }
+## Premios {#awards .section-title}
+
+El proyecto unió buen trabajo técnico con buena comunicación, y los resultados lo reflejan.
 
 ::: {.feature-grid}
-::: {.content-card}
-### Equipo
-Conoce a las personas detrás del proyecto y los roles que dieron forma al resultado final.
+::: {.award-card}
+### Calificación máxima
+Pythia obtuvo la máxima evaluación académica en el Trabajo Fin de Máster.
+:::
+::: {.award-card}
+### 2.º puesto en concurso de pitch
+El proyecto también destacó en contexto de presentación, validando su claridad, storytelling y posicionamiento práctico.
+:::
+::: {.award-card}
+### Presentación lista para recruiters
+La combinación de acabado de producto y profundidad técnica hace que el proyecto funcione especialmente bien en conversaciones de selección.
+:::
+:::
 
-[Ver equipo](./team.html)
-:::
-::: {.content-card}
-### Premios y reconocimiento
-Consulta los logros académicos y de presentación que diferencian el proyecto.
+## Contacto {#contact .section-title}
 
-[Ver premios](./awards-recognition.html)
-:::
-::: {.content-card}
-### Contacto
-Escribe para oportunidades, conversación técnica o una explicación más detallada.
+Para oportunidades, conversación técnica o una explicación del proyecto, puedes escribir a través de los siguientes canales.
 
-[Abrir contacto](./contact.html)
+::: {.contact-grid}
+::: {.contact-card}
+### LinkedIn
+[linkedin.com/in/your-linkedin](https://www.linkedin.com/in/your-linkedin/)
+:::
+::: {.contact-card}
+### GitHub
+[github.com/your-username/pythia](https://github.com/your-username/pythia)
+:::
+::: {.contact-card}
+### Email
+[your.email@example.com](mailto:your.email@example.com)
 :::
 :::
+
+Pythia  
+Trabajo Fin de Máster en la UCM  
+Ciencia de Datos  
+Disponible para entrevistas técnicas, walkthroughs del proyecto y conversaciones de colaboración

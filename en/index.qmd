@@ -3,12 +3,7 @@ title: "Home"
 page-layout: full
 ---
 
-::: {.lang-switcher}
-<a class="lang-link" href="./">English</a>
-<a class="lang-link" href="../es/">Español</a>
-:::
-
-::: {.hero-shell}
+::: {#top .hero-shell}
 []{.eyebrow} Technical case study with product polish
 
 # Pythia { .hero-title }
@@ -43,83 +38,156 @@ Final project for the Master in Data Science at UCM/NTIC.
 :::
 :::
 
-## Why Pythia { .section-title }
+## Project Details {#project-details .section-title}
 
-Pythia turns a complex data science challenge into a coherent product story. The project combines rigorous methodology, explainable modeling choices, and a polished end-to-end experience so recruiters, professors, and technical evaluators can understand both the business value and the engineering quality in less than three minutes.
+Pythia is designed to be readable in one sitting: start with the business challenge, move through the analytical pipeline, review the modeling choices, and finish with measurable impact.
 
-::: {.feature-grid}
-::: {.content-card}
-### Product overview
-From concept to interface, Pythia is framed as a usable product rather than only a model notebook.
+::: {.detail-grid}
+::: {.content-card .detail-card .simple-card}
+### Business Problem
 
-[Explore the product overview](./product-overview.html)
-:::
-::: {.content-card}
-### Data and methodology
-The analytical workflow is documented clearly, from sourcing and preparation to evaluation design.
+Pythia starts from a real decision-making challenge: how to convert available data into reliable guidance that supports faster, better-informed action in a cafeteria context.
 
-[Review the methodology](./data-methodology.html)
-:::
-::: {.content-card}
-### Results and impact
-Performance is presented together with practical implications, business relevance, and communication quality.
+**Why this matters**
 
-[See the results](./results-impact.html)
-:::
+Organizations often have operational data but lack a trustworthy way to translate it into practical day-to-day decisions.
+
+**The gap**
+
+Raw information alone does not create value. What is needed is a structured analytical workflow that turns data into usable insight.
+
+**Pythia's contribution**
+
+Pythia combines business framing, technical rigor, and clear presentation so the outputs connect naturally with real-world action.
 :::
 
-## In Three Minutes { .section-title }
+::: {.content-card .detail-card}
+### Data and Methodology
 
-::: {.page-grid}
-::: {.info-panel}
-### What it solves
-Pythia addresses a meaningful business problem with a decision-support perspective, translating raw data into insight that can guide action.
-:::
-::: {.info-panel}
-### How it works
-The system combines structured data work, sound methodology, and interpretable modeling decisions within a clear product narrative.
-:::
-::: {.info-panel}
-### Why it stands out
-It was awarded the maximum grade and placed second in a pitch contest, reflecting both technical depth and strong communication.
+The methodology is designed to be technically sound and easy to audit. Each phase contributes to trust: data provenance, preprocessing decisions, evaluation design, and transparent interpretation.
+
+**Core components**
+
+- Data sources and scope
+- Cleaning and transformation
+- Feature engineering
+- Evaluation setup
+- Interpretation and limitations
+
+**What this section should show**
+
+- data pipeline and dataset scope
+- acquisition, quality checks, and preprocessing
+- train-validation-test strategy
+- reproducibility choices and repository structure
+
+::: {.media-slot}
+Space for data pipeline graphic, EDA snapshot, or methodology table
 :::
 :::
 
-## Video Demo { .section-title }
+::: {.content-card .detail-card}
+### Modeling
+
+The modeling section should communicate technical judgment and restraint: why the chosen approaches fit the problem, what alternatives were considered, and how performance was balanced with interpretability and robustness.
+
+**Review focus**
+
+- baselines before complex models
+- rationale for model selection
+- tuning without overfitting
+- explainability and business usefulness
+
+::: {.media-slot}
+Space for model comparison chart, feature importance graphic, or architecture diagram
+:::
+:::
+
+::: {.content-card .detail-card}
+### Results and Impact
+
+Results should show more than model metrics. Pythia is strongest when the performance story is connected to user value, decision quality, and operational improvement.
+
+**Evidence to include**
+
+- final metrics table
+- comparison with baselines
+- practical impact on decisions
+- communication impact and recognition
+
+::: {.media-slot}
+Space for results table, performance chart, or impact dashboard
+:::
+:::
+:::
+
+## Video Demo {#video-demo .section-title}
 
 ::: {.youtube-frame}
 <iframe src="https://www.youtube.com/embed/gkD9bKw1ikY" title="Pythia demo video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 :::
 
-## Supporting References { .section-title }
+## Team {#team .section-title}
 
-Your existing technical materials can live alongside the website as supporting evidence rather than driving the homepage design.
+Pythia was shaped by a collaborative team with a shared focus on technical quality, product thinking, and clear communication.
 
-::: {.reference-links}
-[Repository](https://github.com/your-username/pythia)
-[Technical report](https://github.com/your-username/pythia)
-[Slides](https://github.com/your-username/pythia)
+::: {.team-grid}
+::: {.team-card}
+![Team member 1](../assets/images/team/team-member-1.svg){.team-photo}
+### Team Member One
+Data science, experimentation, and analytical framing.
+:::
+::: {.team-card}
+![Team member 2](../assets/images/team/team-member-2.svg){.team-photo}
+### Team Member Two
+Modeling, technical validation, and implementation.
+:::
+::: {.team-card}
+![Team member 3](../assets/images/team/team-member-3.svg){.team-photo}
+### Team Member Three
+Product narrative, presentation, and stakeholder communication.
+:::
 :::
 
-## Next Stops { .section-title }
+## Awards {#awards .section-title}
+
+The project combined strong technical work with strong communication, and the outcomes reflect both.
 
 ::: {.feature-grid}
-::: {.content-card}
-### Team
-Meet the people behind the project and the roles that shaped the final delivery.
+::: {.award-card}
+### Maximum grade
+Pythia received the highest academic evaluation for the final project.
+:::
+::: {.award-card}
+### 2nd place in pitch contest
+The project also stood out in a presentation setting, validating its clarity, storytelling, and practical positioning.
+:::
+::: {.award-card}
+### Recruiter-ready presentation
+The combination of product polish and technical depth makes the project especially effective for hiring conversations.
+:::
+:::
 
-[Meet the team](./team.html)
-:::
-::: {.content-card}
-### Awards and recognition
-See the academic and presentation achievements that differentiate the project.
+## Contact {#contact .section-title}
 
-[View awards](./awards-recognition.html)
-:::
-::: {.content-card}
-### Contact
-Reach out for opportunities, technical discussion, or a deeper walkthrough.
+For opportunities, technical discussion, or a walkthrough of the project, reach out through the channels below.
 
-[Open contact page](./contact.html)
+::: {.contact-grid}
+::: {.contact-card}
+### LinkedIn
+[linkedin.com/in/your-linkedin](https://www.linkedin.com/in/your-linkedin/)
+:::
+::: {.contact-card}
+### GitHub
+[github.com/your-username/pythia](https://github.com/your-username/pythia)
+:::
+::: {.contact-card}
+### Email
+[your.email@example.com](mailto:your.email@example.com)
 :::
 :::
+
+Pythia  
+Master’s Final Project at UCM  
+Data Science  
+Available for technical interviews, project walkthroughs, and collaboration conversations

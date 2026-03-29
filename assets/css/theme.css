@@ -56,6 +56,10 @@ h3 {
   border-bottom: 1px solid rgba(27, 31, 35, 0.06);
 }
 
+.navbar-nav .nav-link {
+  font-size: var(--step--1);
+}
+
 .navbar-brand img {
   height: 30px;
 }
@@ -200,7 +204,8 @@ h3 {
 .feature-grid,
 .team-grid,
 .contact-grid,
-.page-grid {
+.page-grid,
+.detail-grid {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   margin: 1.3rem 0 2rem;
 }
@@ -211,6 +216,50 @@ h3 {
 .award-card,
 .info-panel {
   padding: 1.4rem;
+}
+
+.detail-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+}
+
+.detail-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.detail-card p,
+.detail-card li {
+  margin-bottom: 0;
+}
+
+.simple-card {
+  justify-content: flex-start;
+}
+
+.media-slot {
+  margin-top: auto;
+  min-height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border: 1px dashed rgba(11, 92, 128, 0.28);
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(229, 240, 245, 0.6), rgba(255, 255, 255, 0.9));
+  color: var(--pythia-muted);
+  text-align: center;
+  font-size: var(--step--1);
+}
+
+#top,
+#project-details,
+#video-demo,
+#team,
+#awards,
+#contact {
+  scroll-margin-top: 90px;
 }
 
 .content-card h3,
@@ -287,6 +336,10 @@ h3 {
   }
 
   .badge-row {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-grid {
     grid-template-columns: 1fr;
   }
 
