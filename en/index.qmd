@@ -9,7 +9,6 @@ page-layout: full
     <a href="#project-details">Project details</a>
     <a href="#video-demo">Video demo</a>
     <a href="#team-awards">Team &amp; Awards</a>
-    <a href="#contact">Contact</a>
   </div>
   <div class="page-nav-lang">
     <a href="./">EN</a>
@@ -19,6 +18,10 @@ page-layout: full
 ```
 
 ::: {#top .hero-shell}
+::: {.hero-meta}
+Presented in February 2026
+:::
+
 # Pythia - data science for cafeterias { .hero-title }
 
 ::: {.hero-subtitle}
@@ -184,12 +187,4 @@ The project also stood out in a presentation setting, validating its clarity, st
 :::
 :::
 :::
-:::
-
-## Contact {#contact .section-title}
-
-::: {.contact-actions}
-[LinkedIn](https://www.linkedin.com/in/yassuhiro-m/){.cta-button .cta-secondary}
-[Pythia Project Repo](https://github.com/lucaiaco21/Cafe-Madrid---TFM-Project){.cta-button .cta-tertiary}
-[GitHub](https://github.com/YassuhiroM){.cta-button .cta-tertiary}
 :::

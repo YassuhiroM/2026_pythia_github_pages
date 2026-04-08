@@ -9,7 +9,6 @@ page-layout: full
     <a href="#project-details">Detalles del proyecto</a>
     <a href="#video-demo">Demo en video</a>
     <a href="#team-awards">Equipo y premios</a>
-    <a href="#contact">Contacto</a>
   </div>
   <div class="page-nav-lang">
     <a href="../en/">EN</a>
@@ -19,6 +18,10 @@ page-layout: full
 ```
 
 ::: {#top .hero-shell}
+::: {.hero-meta}
+Presentado en febrero de 2026
+:::
+
 # Pythia - ciencia de datos para cafeterías { .hero-title }
 
 ::: {.hero-subtitle}
@@ -184,12 +187,4 @@ El proyecto también destacó en un contexto de presentación, validando su clar
 :::
 :::
 :::
-:::
-
-## Contacto {#contact .section-title}
-
-::: {.contact-actions}
-[LinkedIn](https://www.linkedin.com/in/yassuhiro-m/){.cta-button .cta-secondary}
-[Repositorio del proyecto Pythia](https://github.com/lucaiaco21/Cafe-Madrid---TFM-Project){.cta-button .cta-tertiary}
-[GitHub](https://github.com/YassuhiroM){.cta-button .cta-tertiary}
 :::
